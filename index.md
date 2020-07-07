@@ -39,7 +39,7 @@ page_sections:
   content: Quickly assemble and create custom sites with 16 design blocks for seven
     different sections.
   media:
-    image: "/uploads/2020/07/07/screencast-python-poetry-org-2020-07-07-10_26_08.gif"
+    image: "/uploads/2020/07/07/screencast-python-poetryorg-2020.gif"
     alt_text: uBuild Blocks Mock-Up
 - template: content-feature
   block: feature-1
