@@ -39,7 +39,7 @@ page_sections:
   content: Quickly assemble and create custom sites with 16 design blocks for seven
     different sections.
   media:
-    image: "/uploads/2020/07/07/react-med-demo1.gif"
+    image: "/uploads/2020/07/07/welcome-to-screencastify-_-the-1-screen-recorder-for-chrome.gif"
     alt_text: uBuild Blocks Mock-Up
 - template: content-feature
   block: feature-1
