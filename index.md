@@ -28,7 +28,7 @@ page_sections:
     url: https://github.com/forestryio/ubuild-jekyll
     button_text: 'See on GitHub '
   image:
-    image: "/uploads/2020/07/07/screencast-python-poetry-org-2020-07-07-10_26_08.webm"
+    image: "/uploads/2020/07/07/screencast-python-poetry-org-2020-07-07-10_26_08.gif"
     alt_text: Product Shot
   background_image: ''
 - template: content-feature
