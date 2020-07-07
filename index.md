@@ -30,7 +30,7 @@ page_sections:
   image:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
-  background_image: "/uploads/2018/06/21/hero-2-bg.png"
+  background_image: "/uploads/2020/07/07/screencast-python-poetry-org-2020-07-07-10_26_08.webm"
 - template: content-feature
   block: feature-1
   media_alignment: Left
