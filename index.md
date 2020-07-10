@@ -74,11 +74,11 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: "# Teste"
-  content: "## Conteudo"
+  headline: teste 2
+  content: testando
   media:
+    alt_text: not yet
     image: ''
-    alt_text: ''
 
 ---
 foo bar
