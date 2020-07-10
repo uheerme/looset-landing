@@ -8,16 +8,12 @@ page_sections:
   logo: ''
   navigation:
   - link: "/"
-    link_text: Home
+    link_text: Looset Diagram
   - link: "#features"
-    link_text: Features
-  - link: "#pricing"
-    link_text: Pricing
-  - link: "#team"
-    link_text: Team
+    link_text: Looset Code
   cta:
-    url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
-    button_text: Download?
+    url: https://youtu.be/ktVpk1UukKA
+    button_text: Watch Demo
 - template: hero-banner-w-image
   block: hero-2
   headline: uBuild <br><strong>design blocks</strong>
