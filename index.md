@@ -73,7 +73,7 @@ page_sections:
   content: Hello world! ❤︎
 - template: content-feature
   block: feature-1
-  media_alignment: Right
+  media_alignment: Left
   headline: teste 2
   content: testando
   media:
