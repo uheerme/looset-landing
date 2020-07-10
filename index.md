@@ -37,6 +37,7 @@ page_sections:
   media:
     image: "/uploads/2020/07/07/welcome-to-screencastify-the-1-s.gif"
     alt_text: uBuild Blocks Mock-Up
+  HtmlId: ''
 - template: content-feature
   block: feature-1
   media_alignment: Right
@@ -47,6 +48,7 @@ page_sections:
   media:
     image: "/uploads/2018/06/21/edit.gif"
     alt_text: Customize Blocks
+  HtmlId: ''
 - template: 1-column-text
   block: one-column-1
   headline: 16 Fully Responsive Design Blocks
@@ -79,6 +81,7 @@ page_sections:
   media:
     alt_text: not yet
     image: ''
+  HtmlId: diagram
 
 ---
 foo bar
