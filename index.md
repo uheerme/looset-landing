@@ -29,8 +29,10 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: teste 2
-  content: testando
+  headline: Looset Diagrams helps developers who wants to <strong>understand the code</strong>
+    they are working by giving more than just text colored in a editor and showing
+    a <strong>graph of call references</strong> between Code Blocks.
+  content: ''
   media:
     alt_text: not yet
     image: ''
