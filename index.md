@@ -71,6 +71,14 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: Hello world! ❤︎
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  headline: "# Teste"
+  content: "## Conteudo"
+  media:
+    image: ''
+    alt_text: ''
 
 ---
 foo bar
