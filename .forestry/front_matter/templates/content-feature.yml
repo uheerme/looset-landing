@@ -41,3 +41,9 @@ fields:
     - Right
   label: Media Alignment
   default: Right
+- name: HtmlId
+  type: text
+  config:
+    required: false
+  label: HTML ID
+  description: Html id for anchor links.
