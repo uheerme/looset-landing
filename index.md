@@ -43,6 +43,19 @@ page_sections:
   HtmlId: diagram
 - template: content-feature
   block: feature-1
+  media_alignment: Right
+  content: It automatically generates graph diagrams where each Code Block is a node
+    and a connection is created when a Code Block references another Code Block. When
+    a folder is collapsed all its Code Blocks get hidden inside the folder and their
+    connections start to point to the folder, acting as a black box. It's simple to
+    explain and beautiful to see.
+  headline: ''
+  media:
+    image: ''
+    alt_text: ''
+  HtmlId: ''
+- template: content-feature
+  block: feature-1
   media_alignment: Left
   headline: <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
     class="light">the Blocks to create sites quickly</span>
