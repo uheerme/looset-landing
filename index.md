@@ -29,6 +29,10 @@ page_sections:
 - template: simple-header
   block: header-3
   logo: "/uploads/2020/07/10/diagram-logo.png"
+- template: full-width-media-element
+  block: media-1
+  image: "/uploads/2020/07/10/diagram-logo.png"
+  caption: teste
 - template: content-feature
   block: feature-1
   media_alignment: Left
