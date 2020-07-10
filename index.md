@@ -28,7 +28,7 @@ page_sections:
   background_image: ''
 - template: simple-header
   block: header-3
-  logo: "/uploads/2020/07/10/diagram-logo.png"
+  logo: "/uploads/2020/07/07/welcome-to-screencastify-the-1-s.gif"
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2020/07/10/diagram-logo.png"
