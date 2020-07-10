@@ -26,6 +26,15 @@ page_sections:
     image: "/uploads/2020/07/07/screencast-python-poetry-org-2020-07-07-10_26_08.gif"
     alt_text: Product Shot
   background_image: ''
+- template: 1-column-text
+  block: one-column-1
+  headline: All Languages Support!
+  content: This is possible by a simple <strong>static analyzer</strong> that identify
+    <strong>Code Blocks</strong> and an identifier, what in most cases are functions
+    and its name.<br><br>The basic analyzer rely in the fact that developers split
+    Code Blocks by blank lines and use appropriate indentation.<br><br>It works with
+    any language, this is why it's perfect to be used in projects that mix HTML, CSS,
+    Javascript, C#, Clojure, Python, Haskell, Cobol, Lolcode, etc.
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2020/07/10/diagram-logo.png"
@@ -76,12 +85,6 @@ page_sections:
     image: "/uploads/2018/06/21/edit.gif"
     alt_text: Customize Blocks
   HtmlId: ''
-- template: 1-column-text
-  block: one-column-1
-  headline: 16 Fully Responsive Design Blocks
-  content: "The Design Blocks can be used without Forestry but to harness the power
-    of Blocks we recommend using Forestry. Once the site is imported you can immediately
-    create new sites and make them fully customizable. \U0001F447"
 - template: full-width-media-element
   block: media-1
   image: "/uploads/2018/06/21/theme.png"
