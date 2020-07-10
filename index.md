@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Looset
-date: 2020-07-08 00:00:00 +0000
+date: 2020-07-08T00:00:00.000+00:00
 page_sections:
 - template: navigation-header-w-button
   block: header-2
@@ -16,17 +16,25 @@ page_sections:
     button_text: Watch Demo
 - template: hero-banner-w-image
   block: hero-2
-  headline: uBuild <br><strong>design blocks</strong>
-  content: The tool that allows you to build beautiful sites<br>all inside Forestry's
-    content manager.
+  headline: Source Code Visualization
+  content: A family of tools to explore big or unknown code bases.
   cta:
     enabled: true
-    url: https://github.com/forestryio/ubuild-jekyll
-    button_text: 'See on GitHub '
+    url: https://youtu.be/ktVpk1UukKA
+    button_text: Demo on Youtube
   image:
     image: "/uploads/2020/07/07/screencast-python-poetry-org-2020-07-07-10_26_08.gif"
     alt_text: Product Shot
   background_image: ''
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  headline: teste 2
+  content: testando
+  media:
+    alt_text: not yet
+    image: ''
+  HtmlId: diagram
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -73,15 +81,6 @@ page_sections:
 - template: simple-footer
   block: footer-1
   content: Hello world! ❤︎
-- template: content-feature
-  block: feature-1
-  media_alignment: Left
-  headline: teste 2
-  content: testando
-  media:
-    alt_text: not yet
-    image: ''
-  HtmlId: diagram
 
 ---
 foo bar
