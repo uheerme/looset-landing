@@ -1,8 +1,8 @@
 ---
-title: Looset - A source code explorer for big or unknown projects
+title: Looset
 author: João Paulo
 email: JpSoares106@gmail.com
-description: ''
+description: Source code visualization - An explorer for big or unknown projects
 baseurl: "/looset-landing"
 url: ''
 defaults:
