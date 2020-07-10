@@ -26,6 +26,9 @@ page_sections:
     image: "/uploads/2020/07/07/screencast-python-poetry-org-2020-07-07-10_26_08.gif"
     alt_text: Product Shot
   background_image: ''
+- template: simple-header
+  block: header-3
+  logo: "/uploads/2020/07/10/diagram-logo.png"
 - template: content-feature
   block: feature-1
   media_alignment: Left
