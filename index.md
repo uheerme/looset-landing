@@ -7,7 +7,7 @@ page_sections:
   block: header-2
   logo: ''
   navigation:
-  - link: "/"
+  - link: "#diagram"
     link_text: Looset Diagram
   - link: "#features"
     link_text: Looset Code
