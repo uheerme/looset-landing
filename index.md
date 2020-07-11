@@ -37,7 +37,7 @@ page_sections:
     Javascript, C#, Clojure, Python, Haskell, Cobol, Lolcode, etc.
 - template: full-width-media-element
   block: media-1
-  image: "/uploads/2020/07/10/diagram-logo.png"
+  image: "/uploads/2020/07/11/diagram-logo.png"
   caption: ''
 - template: content-feature
   block: feature-1
