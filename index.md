@@ -70,10 +70,10 @@ page_sections:
   headline: All Languages Support!
   content: This is possible by a simple <strong>static analyzer</strong> that identify
     <strong>Code Blocks</strong> and an identifier, what in most cases are functions
-    and its name.<br><br>The basic analyzer rely in the fact that developers split
-    Code Blocks by blank lines and use appropriate indentation.<br><br>It works with
-    any language, this is why it's perfect to be used in projects that mix HTML, CSS,
-    Javascript, C#, Clojure, Python, Haskell, Cobol, Lolcode, etc.
+    and its name.<br>The basic analyzer rely in the fact that developers split Code
+    Blocks by blank lines and use appropriate indentation.<br>It works with any language,
+    this is why it's perfect to be used in projects that mix HTML, CSS, Javascript,
+    C#, Clojure, Python, Haskell, Cobol, Lolcode, etc.
 - template: content-feature
   block: feature-1
   media_alignment: Right
