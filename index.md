@@ -123,18 +123,16 @@ page_sections:
   HtmlId: ''
 - template: detail-content
   block: text-1
-  headline: Steps to Build a Site!
-  content: <p>uBuild is an open-source Jekyll based theme that doubles as a builder
-    tool inside the Forestry content manager. It's easy to get started!</p><ol><li><p>Fork
-    the <a href="https://github.com/forestryio/ubuild-jekyll">repo</a> and import
-    the site into <a href="https://forestry.io/">Forestry</a> (or use <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks#even-quicker-start">our
-    magic button</a>).</p></li><li><p>Click on 'Add New' in Forestry and select the
-    Page-Builder template.</p></li><li><p>Add and customize the available Blocks and
-    preview them as you go along.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
-    article</a> and create your own Blocks.</p></li></ol>
+  headline: More Content
+  content: '<ul><li><p>A <a href="https://youtu.be/ktVpk1UukKA" title="The whole Looset
+    Family">video demo</a> of future tools: Looset Glossary and Looset Page;</p></li><li><p>A
+    <a href="https://forms.gle/5vbfc54MRXcBodKc7" title="Google Forms survey">survey</a>
+    for devs to understand which tools would benefit them better;</p></li><li><p>An
+    overview <a href="https://github.com/JpOnline/looset/blob/master/tools-overview/README.md"
+    title="Tools Overview">README</a> of the four tools.</p></li></ul>'
 - template: simple-footer
   block: footer-1
-  content: By Jp
+  content: <a href="https://jponline.github.io/site/" title="Jp's site">By Jp</a>
 
 ---
 foo bar
