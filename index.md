@@ -5,7 +5,7 @@ date: 2020-07-08T00:00:00.000+00:00
 page_sections:
 - template: navigation-header-w-button
   block: header-2
-  logo: ''
+  logo: "/uploads/2020/07/11/logo.png"
   navigation:
   - link: "#diagram"
     link_text: Looset Diagram
