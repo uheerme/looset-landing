@@ -97,6 +97,17 @@ page_sections:
   HtmlId: ''
 - template: content-feature
   block: feature-1
+  media_alignment: Left
+  headline: See when documentation and code get out of sync
+  content: The <strong>last commit date </strong>is shown both to the Code Block and
+    its docstring, so developers can instantly compare it to be sure they can <strong>trust
+    the information</strong>.
+  media:
+    image: ''
+    alt_text: ''
+  HtmlId: ''
+- template: content-feature
+  block: feature-1
   media_alignment: Right
   headline: Custom levels of abstractions
   content: 'With Labels developers have a general overview of the code base better
@@ -110,43 +121,6 @@ page_sections:
     image: ''
     alt_text: ''
   HtmlId: ''
-- template: content-feature
-  block: feature-1
-  media_alignment: Left
-  headline: See when documentation and code get out of sync
-  content: The <strong>last commit date </strong>is shown both to the Code Block and
-    its docstring, so developers can instantly compare it to be sure they can <strong>trust
-    the information</strong>.
-  media:
-    image: ''
-    alt_text: ''
-  HtmlId: ''
-- template: content-feature
-  block: feature-1
-  media_alignment: Left
-  headline: <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
-    class="light">the Blocks to create sites quickly</span>
-  content: Quickly assemble and create custom sites with 16 design blocks for seven
-    different sections.
-  media:
-    image: "/uploads/2020/07/07/welcome-to-screencastify-the-1-s.gif"
-    alt_text: uBuild Blocks Mock-Up
-  HtmlId: ''
-- template: content-feature
-  block: feature-1
-  media_alignment: Right
-  headline: <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
-    edits throughout your new site</span>
-  content: Each block comes with custom Front Matter that can easily be edited in
-    Forestry's UI.
-  media:
-    image: "/uploads/2018/06/21/edit.gif"
-    alt_text: Customize Blocks
-  HtmlId: ''
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2018/06/21/theme.png"
-  caption: All Available Blocks
 - template: detail-content
   block: text-1
   headline: Steps to Build a Site!
@@ -160,7 +134,7 @@ page_sections:
     article</a> and create your own Blocks.</p></li></ol>
 - template: simple-footer
   block: footer-1
-  content: By João Paulo Soares
+  content: By Jp
 
 ---
 foo bar
