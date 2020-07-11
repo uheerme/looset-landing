@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Looset
+title: ''
 date: 2020-07-08T00:00:00.000+00:00
 page_sections:
 - template: navigation-header-w-button
