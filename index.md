@@ -69,6 +69,15 @@ page_sections:
   caption: ''
 - template: content-feature
   block: feature-1
+  media_alignment: Right
+  media:
+    image: "/uploads/2020/07/11/code-logo.png"
+    alt_text: Looset Code
+  headline: ''
+  content: ''
+  HtmlId: ''
+- template: content-feature
+  block: feature-1
   media_alignment: Left
   headline: <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
     class="light">the Blocks to create sites quickly</span>
