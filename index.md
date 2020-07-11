@@ -7,9 +7,9 @@ page_sections:
   block: header-2
   logo: "/uploads/2020/07/11/logo.png"
   navigation:
-  - link: "#diagram"
+  - link: "#looset-diagram"
     link_text: Looset Diagram
-  - link: "#features"
+  - link: "#looset-code"
     link_text: Looset Code
   cta:
     url: https://youtu.be/ktVpk1UukKA
