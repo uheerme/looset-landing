@@ -42,6 +42,15 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
+  HtmlId: looset-diagram
+  media:
+    image: "/uploads/2020/07/11/diagram-logo.png"
+    alt_text: ''
+  headline: ''
+  content: ''
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
   headline: Looset Diagrams helps developers who wants to <strong>understand the code</strong>
     they are working by giving more than just text colored in a editor and showing
     a <strong>graph of call references</strong> between Code Blocks.
