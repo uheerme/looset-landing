@@ -32,10 +32,6 @@ page_sections:
   content: The problem is when we are facing a big code base that we don't know, it
     would be great if every project is split well in modules, have good documentation
     and functions and variables are named accordingly with the domain entities.
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2020/07/11/diagram-logo.png"
-  caption: ''
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -94,6 +90,21 @@ page_sections:
     base</strong> efficiently by avoiding managing several opened files and <strong>showing
     Code Blocks</strong> they are working simultaneously <strong>in one screen</strong>. '
   content: ''
+  media:
+    image: ''
+    alt_text: ''
+  HtmlId: ''
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  headline: Custom levels of abstractions
+  content: 'With Labels developers have a general overview of the code base better
+    than with the file system. A Label is very similar to a folder: it can contain
+    Code Blocks and other Labels. The difference is they can be in more than a Label
+    at the same time. E.g. a CB called <code>getFeatureIdsAt</code> can be in the
+    <code>Main API</code>, so if we expand the Label we can see it''s there, but the
+    same Code Block can also be in the <code>Point</code> Label and we can see it
+    in both places.'
   media:
     image: ''
     alt_text: ''
