@@ -159,7 +159,13 @@ page_sections:
     article</a> and create your own Blocks.</p></li></ol>
 - template: simple-footer
   block: footer-1
-  content: Hello world! ❤︎
+  content: By João Paulo Soares
+- template: 4-column-footer
+  block: footer-2
+  image: ''
+  col_2: ''
+  col_3: ''
+  col_4: ''
 
 ---
 foo bar
