@@ -101,10 +101,19 @@ page_sections:
   content: 'With Labels developers have a general overview of the code base better
     than with the file system. A Label is very similar to a folder: it can contain
     Code Blocks and other Labels. The difference is they can be in more than a Label
-    at the same time. E.g. a CB called <code>getFeatureIdsAt</code> can be in the
-    <code>Main API</code>, so if we expand the Label we can see it''s there, but the
-    same Code Block can also be in the <code>Point</code> Label and we can see it
-    in both places.'
+    at the same time. E.g. a Code Block called <code>getFeatureIdsAt</code> can be
+    in the <code>Main API</code>, so if we expand the Label we can see it''s there,
+    but the same Code Block can also be in the <code>Point</code> Label and we can
+    see it in both places.'
+  media:
+    image: ''
+    alt_text: ''
+  HtmlId: ''
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  headline: See when documentation and code get out of sync
+  content: ''
   media:
     image: ''
     alt_text: ''
