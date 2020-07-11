@@ -45,7 +45,7 @@ page_sections:
   HtmlId: looset-diagram
   media:
     image: "/uploads/2020/07/11/diagram-logo.png"
-    alt_text: ''
+    alt_text: Looset Diagram
   headline: ''
   content: ''
 - template: content-feature
