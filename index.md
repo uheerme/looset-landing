@@ -30,8 +30,9 @@ page_sections:
   block: one-column-1
   headline: Source Code is rarely clean
   content: The problem is when we are facing a big code base that we don't know, it
-    would be great if every project is split well in modules, have good documentation
-    and functions and variables are named accordingly with the domain entities.
+    would be great if every project is split well in modules, have good documentation,
+    tests and functions and variables are named accordingly with the domain entities,
+    but this is not always true.
 - template: content-feature
   block: feature-1
   media_alignment: Left
