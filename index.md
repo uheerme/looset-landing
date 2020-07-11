@@ -63,10 +63,6 @@ page_sections:
     image: ''
     alt_text: ''
   HtmlId: ''
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2020/07/11/code-logo.png"
-  caption: ''
 - template: content-feature
   block: feature-1
   media_alignment: Right
@@ -75,7 +71,7 @@ page_sections:
     alt_text: Looset Code
   headline: ''
   content: ''
-  HtmlId: ''
+  HtmlId: looset-code
 - template: content-feature
   block: feature-1
   media_alignment: Left
