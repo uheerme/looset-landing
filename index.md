@@ -83,6 +83,17 @@ page_sections:
   HtmlId: looset-code
 - template: content-feature
   block: feature-1
+  media_alignment: Right
+  headline: 'Looset Code helps developers who want to <strong>walk through the code
+    base</strong> efficiently by avoiding managing several opened files and <strong>showing
+    Code Blocks</strong> they are working simultaneously <strong>in one screen</strong>. '
+  content: ''
+  media:
+    image: ''
+    alt_text: ''
+  HtmlId: ''
+- template: content-feature
+  block: feature-1
   media_alignment: Left
   headline: <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
     class="light">the Blocks to create sites quickly</span>
