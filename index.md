@@ -60,7 +60,7 @@ page_sections:
     a folder is collapsed all its Code Blocks get hidden inside the folder and their
     connections start to point to the folder, acting as a black box. It's simple to
     explain and beautiful to see.
-  headline: ''
+  headline: Graph of Code Blocks references
   media:
     image: ''
     alt_text: ''
