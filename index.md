@@ -93,10 +93,6 @@ page_sections:
   headline: ''
   content: <img src="/uploads/2020/07/11/code-logo.png">
   HtmlId: looset-code
-- template: 1-column-text
-  block: one-column-1
-  content: <img src="/uploads/2020/07/11/code-logo.png">
-  headline: ''
 - template: content-feature
   block: feature-1
   media_alignment: Right
