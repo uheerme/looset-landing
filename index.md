@@ -79,6 +79,10 @@ page_sections:
 - template: simple-header
   block: header-3
   logo: "/uploads/2018/06/21/forestry-full.svg"
+- template: 1-column-text
+  block: one-column-1
+  content: <img src="/uploads/2018/06/21/forestry-full.svg">
+  headline: ''
 - template: content-feature
   block: feature-1
   media_alignment: Right
