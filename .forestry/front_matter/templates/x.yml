@@ -1,4 +1,12 @@
 ---
 label: x
 hide_body: false
-fields: []
+fields:
+- name: y
+  type: blocks
+  label: y
+  template_types: []
+  config:
+    min: 
+    max: 
+  description: z
