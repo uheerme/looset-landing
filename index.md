@@ -76,6 +76,9 @@ page_sections:
     It works with <strong>any language</strong>, this is why it's perfect to be used
     in projects that mix HTML, CSS, Javascript, C#, Clojure, Python, Haskell, Cobol,
     Lolcode, etc.
+- template: simple-header
+  block: header-3
+  logo: "/uploads/2018/06/21/forestry-full.svg"
 - template: content-feature
   block: feature-1
   media_alignment: Right
