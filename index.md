@@ -76,18 +76,6 @@ page_sections:
     It works with <strong>any language</strong>, this is why it's perfect to be used
     in projects that mix HTML, CSS, Javascript, C#, Clojure, Python, Haskell, Cobol,
     Lolcode, etc.
-- template: simple-header
-  block: header-3
-  logo: "/uploads/2018/06/21/forestry-full.svg"
-- template: content-feature
-  block: feature-1
-  media_alignment: Right
-  media:
-    image: "/uploads/2020/07/11/code-logo.png"
-    alt_text: Looset Code
-  headline: ''
-  content: ''
-  HtmlId: looset-code
 - template: title-no-bottom-padding
   block: title
   headline: ''
