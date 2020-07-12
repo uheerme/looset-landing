@@ -1,0 +1,19 @@
+---
+label: Title
+hide_body: false
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: title
+- type: include
+  name: title
+  label: Title
+  template: text-column
+- name: HtmlId
+  type: text
+  config:
+    required: false
+  label: HTML ID
+  description: Html id for anchor links.
