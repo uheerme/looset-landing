@@ -23,6 +23,7 @@ fields:
   - hero-banner-w-image
   - content-feature
   - detail-content
+  - title-no-bottom-padding
   - 1-column-text
   - 2-column-text
   - 3-column-text
