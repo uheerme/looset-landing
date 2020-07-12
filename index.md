@@ -88,6 +88,11 @@ page_sections:
   headline: ''
   content: ''
   HtmlId: looset-code
+- template: title-no-bottom-padding
+  block: title
+  headline: Título
+  content: ''
+  HtmlId: ''
 - template: 1-column-text
   block: one-column-1
   content: <img src="/uploads/2020/07/11/code-logo.png">
