@@ -100,10 +100,10 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: See when documentation and code get out of sync
-  content: The <strong>last commit date </strong>is shown both to the Code Block and
-    its docstring, so developers can instantly compare it to be sure they can <strong>trust
-    the information</strong>.
+  headline: Documentation and Code Synchronization
+  content: 'See when documentation and code get out of sync: The <strong>last commit
+    date </strong>is shown both to the Code Block and its docstring, so developers
+    can instantly compare it to be sure they can <strong>trust the information</strong>.'
   media:
     image: ''
     alt_text: ''
