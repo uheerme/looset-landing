@@ -37,17 +37,24 @@ page_sections:
       used in projects that mix HTML, CSS, Javascript, C#, Clojure, Python, Haskell,
       Cobol, Lolcode, etc.
     headline: All Languages Supported
+    headline-color: "--headline-color"
+    content-color: "--content-color"
   col_1:
     content: The problem is when we are facing a big code base that we don't know,
       it would be great if every project is split well in modules, have good documentation,
       tests and functions and variables are named accordingly with the domain entities,
       but this is not always true.
     headline: Source Code is rarely clean
+    headline-color: "--headline-color"
+    content-color: "--content-color"
+  background-color: ''
 - template: title-no-bottom-padding
   block: title
   content: <img src="/uploads/2020/07/11/diagram-logo.png">
   HtmlId: looset-diagram
   headline: ''
+  headline-color: black
+  content-color: "#666"
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -77,6 +84,8 @@ page_sections:
   headline: ''
   content: <img src="/uploads/2020/07/11/code-logo.png">
   HtmlId: looset-code
+  headline-color: black
+  content-color: "#666"
 - template: content-feature
   block: feature-1
   media_alignment: Right
