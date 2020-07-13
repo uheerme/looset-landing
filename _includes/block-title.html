@@ -1,11 +1,15 @@
 <section id="{{ section.HtmlId }}"
          class="block block-one-column-1"
-         style="padding-bottom: 5px;">
+         style="padding-bottom: 5px;
+        {% if section.background-color %}
+          background-color: {{ section.background-color }}
+        {% endif %}
+         ">
   <div class="container">
     <div class="columns">
       <div class="column">
-        <p style="color: {{ section.title-color }}">
-          {{ section.title }}
+        <p style="color: {{ section.content-color }}">
+          {{ section.content }}
         </p>
       </div>
     </div>

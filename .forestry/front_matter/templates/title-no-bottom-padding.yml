@@ -22,9 +22,3 @@ fields:
   config:
     required: false
   label: background-color
-- name: title-color
-  type: text
-  config:
-    required: true
-  label: title-color
-  default: black
