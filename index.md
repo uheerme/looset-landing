@@ -23,9 +23,9 @@ page_sections:
     url: https://youtu.be/ktVpk1UukKA
     button_text: Demo on Youtube
   image:
-    image: "/uploads/2020/07/07/screencast-python-poetry-org-2020-07-07-10_26_08.gif"
+    image: "/uploads/2020/07/13/looset-diagram-gif.gif"
     alt_text: Product Shot
-  background_image: "/uploads/2020/07/13/looset-diagram-gif.gif"
+  background_image: ''
 - template: 2-column-text
   block: two-column-1
   col_2:
