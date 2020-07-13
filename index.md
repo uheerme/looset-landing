@@ -59,9 +59,10 @@ page_sections:
   content: <img src="/uploads/2020/07/11/diagram-logo.png">
   HtmlId: looset-diagram
   background-color: ''
-  content-color: black
-  headline-color: black
   content-color: "#666"
+  headline-color: black
+  headline: ''
+  title-color: black
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -100,6 +101,7 @@ page_sections:
   content-color: "#666"
   background-color: ''
   title-color: black
+  headline-color: black
 - template: content-feature
   block: feature-1
   media_alignment: Right
