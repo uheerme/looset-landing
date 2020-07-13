@@ -47,7 +47,7 @@ page_sections:
     headline: Source Code is rarely clean
     headline-color: var(--headline-color)
     content-color: var(--content-color)
-  background-color: ''
+  background-color: "--bg"
 - template: title-no-bottom-padding
   block: title
   content: <img src="/uploads/2020/07/11/diagram-logo.png">
