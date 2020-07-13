@@ -36,7 +36,7 @@ page_sections:
       It works with <strong>any language</strong>, this is why it's perfect to be
       used in projects that mix HTML, CSS, Javascript, C#, Clojure, Python, Haskell,
       Cobol, Lolcode, etc.
-    headline: All Languages Support!
+    headline: All Languages Supported
   col_1:
     content: The problem is when we are facing a big code base that we don't know,
       it would be great if every project is split well in modules, have good documentation,
