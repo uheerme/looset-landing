@@ -43,13 +43,6 @@ page_sections:
       tests and functions and variables are named accordingly with the domain entities,
       but this is not always true.
     headline: Source Code is rarely clean
-- template: 1-column-text
-  block: one-column-1
-  headline: Source Code is rarely clean
-  content: The problem is when we are facing a big code base that we don't know, it
-    would be great if every project is split well in modules, have good documentation,
-    tests and functions and variables are named accordingly with the domain entities,
-    but this is not always true.
 - template: title-no-bottom-padding
   block: title
   content: <img src="/uploads/2020/07/11/diagram-logo.png">
@@ -79,16 +72,6 @@ page_sections:
     image: ''
     alt_text: ''
   HtmlId: ''
-- template: 1-column-text
-  block: one-column-1
-  headline: All Languages Support!
-  content: This is possible by a simple <strong>static analyzer</strong> that identify
-    <strong>Code Blocks</strong> and an identifier, what in most cases are functions
-    and its name. The basic analyzer rely in the fact that developers split Code Blocks
-    by <strong>blank lines</strong> and use appropriate <strong>indentation</strong>.
-    It works with <strong>any language</strong>, this is why it's perfect to be used
-    in projects that mix HTML, CSS, Javascript, C#, Clojure, Python, Haskell, Cobol,
-    Lolcode, etc.
 - template: title-no-bottom-padding
   block: title
   headline: ''
