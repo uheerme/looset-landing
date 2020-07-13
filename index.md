@@ -26,6 +26,23 @@ page_sections:
     image: "/uploads/2020/07/07/screencast-python-poetry-org-2020-07-07-10_26_08.gif"
     alt_text: Product Shot
   background_image: ''
+- template: 2-column-text
+  block: two-column-1
+  col_2:
+    content: This is possible by a simple <strong>static analyzer</strong> that identify
+      <strong>Code Blocks</strong> and an identifier, what in most cases are functions
+      and its name. The basic analyzer rely in the fact that developers split Code
+      Blocks by <strong>blank lines</strong> and use appropriate <strong>indentation</strong>.
+      It works with <strong>any language</strong>, this is why it's perfect to be
+      used in projects that mix HTML, CSS, Javascript, C#, Clojure, Python, Haskell,
+      Cobol, Lolcode, etc.
+    headline: All Languages Support!
+  col_1:
+    content: The problem is when we are facing a big code base that we don't know,
+      it would be great if every project is split well in modules, have good documentation,
+      tests and functions and variables are named accordingly with the domain entities,
+      but this is not always true.
+    headline: Source Code is rarely clean
 - template: 1-column-text
   block: one-column-1
   headline: Source Code is rarely clean
