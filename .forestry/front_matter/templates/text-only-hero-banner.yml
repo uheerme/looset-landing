@@ -14,3 +14,14 @@ fields:
       format: html
   label: Headline
   name: heading
+- name: background-color
+  type: text
+  config:
+    required: false
+  label: background-color
+- name: headline-color
+  type: text
+  config:
+    required: true
+  label: headline-color
+  default: black

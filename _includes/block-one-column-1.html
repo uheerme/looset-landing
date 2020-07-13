@@ -2,9 +2,13 @@
   <div class="container">
     <div class="columns">
       <div class="column">
-        <h3>{{ section.headline }}</h3>
-        <p>{{ section.content }}</p>
-      </div>        
+        <h3 style="color: {{ section.headline-color }}">
+          {{ section.headline }}
+        </h3>
+        <p style="color: {{ section.content-color }}">
+          {{ section.content }}
+        </p>
+      </div>
     </div>
   </div>
 </section>

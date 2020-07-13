@@ -5,9 +5,12 @@
           <img src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}">
       </div>
       <div class="column text">
-          <h2><span class="light">{{ section.headline }}</span></h2>
-          <p>{{ section.content }}</p>
-      </div>  
+          <h2 style="color: {{ section.headline-color }}">
+            <span class="light">{{ section.headline }}</span></h2>
+          <p style="color: {{ section.content-color }}">
+            {{ section.content }}
+          </p>
+      </div>
     </div>
   </div>
 </section>

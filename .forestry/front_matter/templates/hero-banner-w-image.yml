@@ -10,6 +10,11 @@ fields:
 - type: file
   name: background_image
   label: Background Image
+- name: background-color
+  type: text
+  config:
+    required: false
+  label: background-color
 - type: field_group
   name: image
   label: Image
@@ -27,6 +32,12 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- name: headline-color
+  type: text
+  config:
+    required: true
+  label: headline-color
+  default: black
 - type: textarea
   name: content
   label: Content
@@ -47,3 +58,9 @@ fields:
   - type: text
     name: button_text
     label: Button text
+- name: content-color
+  type: text
+  config:
+    required: true
+  label: content-color
+  default: "#666"

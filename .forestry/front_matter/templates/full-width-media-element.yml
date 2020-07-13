@@ -13,3 +13,8 @@ fields:
 - type: text
   name: caption
   label: Caption
+- name: background-color
+  type: text
+  config:
+    required: false
+  label: background-color

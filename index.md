@@ -50,11 +50,10 @@ page_sections:
   background-color: var(--bg)
 - template: title-no-bottom-padding
   block: title
-  content: <img src="/uploads/2020/07/11/diagram-logo.png">
+  title: <img src="/uploads/2020/07/11/diagram-logo.png">
   HtmlId: looset-diagram
-  headline: ''
-  headline-color: black
-  content-color: "#666"
+  background-color: ''
+  title-color: black
 - template: content-feature
   block: feature-1
   media_alignment: Left

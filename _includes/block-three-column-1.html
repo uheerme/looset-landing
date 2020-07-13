@@ -2,17 +2,29 @@
   <div class="container">
     <div class="columns">
       <div class="column">
-        <h3>{{ section.col_1.headline }}</h3>
-        <p>{{ section.col_1.content }}</p>
+        <h3 style="color: {{ section.col_1.headline-color }}">
+          {{ section.col_1.headline }}
+        </h3>
+        <p style="color: {{ section.col_1.content-color }}">
+          {{ section.col_1.content }}
+        </p>
       </div>
       <div class="column">
-        <h3>{{ section.col_2.headline }}</h3>
-        <p>{{ section.col_2.content }}</p>
+        <h3 style="color: {{ section.col_2.headline-color }}">
+          {{ section.col_2.headline }}
+        </h3>
+        <p style="color: {{ section.col_2.content-color }}">
+          {{ section.col_2.content }}
+        </p>
       </div>
       <div class="column">
-        <h3>{{ section.col_3.headline }}</h3>
-        <p>{{ section.col_3.content }}</p>
-      </div>            
+        <h3 style="color: {{ section.col_3.headline-color }}">
+          {{ section.col_3.headline }}
+        </h3>
+        <p style="color: {{ section.col_3.content-color }}">
+          {{ section.col_3.content }}
+        </p>
+      </div>
     </div>
   </div>
 </section>

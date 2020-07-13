@@ -17,3 +17,14 @@ fields:
     required: false
   label: HTML ID
   description: Html id for anchor links.
+- name: background-color
+  type: text
+  config:
+    required: false
+  label: background-color
+- name: title-color
+  type: text
+  config:
+    required: true
+  label: title-color
+  default: black

@@ -17,3 +17,20 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
+- name: background-color
+  type: text
+  config:
+    required: false
+  label: background-color
+- name: headline-color
+  type: text
+  config:
+    required: true
+  label: headline-color
+  default: black
+- name: content-color
+  type: text
+  config:
+    required: true
+  label: content-color
+  default: "#666"

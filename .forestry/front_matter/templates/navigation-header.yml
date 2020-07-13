@@ -22,3 +22,8 @@ fields:
     label: Link text
   config:
     labelField: link_text
+- name: background-color
+  type: text
+  config:
+    required: false
+  label: background-color

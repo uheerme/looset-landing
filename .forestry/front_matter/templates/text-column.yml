@@ -24,3 +24,8 @@ fields:
     required: true
   label: content-color
   default: "#666"
+- name: background-color
+  type: text
+  config:
+    required: false
+  label: background-color
