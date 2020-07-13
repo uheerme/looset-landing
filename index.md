@@ -39,6 +39,7 @@ page_sections:
     headline: All Languages Supported
     headline-color: "--headline-color"
     content-color: "--content-color"
+    background-color: ''
   col_1:
     content: The problem is when we are facing a big code base that we don't know,
       it would be great if every project is split well in modules, have good documentation,
@@ -47,6 +48,7 @@ page_sections:
     headline: Source Code is rarely clean
     headline-color: var(--headline-color)
     content-color: var(--content-color)
+    background-color: ''
   background-color: var(--bg)
 - template: title-no-bottom-padding
   block: title
@@ -54,6 +56,10 @@ page_sections:
   HtmlId: looset-diagram
   background-color: ''
   title-color: black
+  headline: ''
+  headline-color: black
+  content: ''
+  content-color: "#666"
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -85,6 +91,7 @@ page_sections:
   HtmlId: looset-code
   headline-color: black
   content-color: "#666"
+  background-color: ''
 - template: content-feature
   block: feature-1
   media_alignment: Right
