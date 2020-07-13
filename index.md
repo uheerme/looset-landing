@@ -14,6 +14,7 @@ page_sections:
   cta:
     url: https://youtu.be/ktVpk1UukKA
     button_text: Watch Demo
+  background-color: ''
 - template: hero-banner-w-image
   block: hero-2
   headline: Source Code Visualization
@@ -26,6 +27,9 @@ page_sections:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
     alt_text: Product Shot
   background_image: ''
+  background-color: ''
+  headline-color: black
+  content-color: "#666"
 - template: 2-column-text
   block: two-column-1
   col_2:
@@ -71,6 +75,9 @@ page_sections:
     alt_text: not yet
     image: ''
   HtmlId: diagram
+  background-color: ''
+  headline-color: black
+  content-color: "#666"
 - template: content-feature
   block: feature-1
   media_alignment: Right
@@ -84,6 +91,9 @@ page_sections:
     image: ''
     alt_text: ''
   HtmlId: ''
+  background-color: ''
+  headline-color: black
+  content-color: "#666"
 - template: title-no-bottom-padding
   block: title
   headline: ''
@@ -92,6 +102,7 @@ page_sections:
   headline-color: black
   content-color: "#666"
   background-color: ''
+  title-color: black
 - template: content-feature
   block: feature-1
   media_alignment: Right
@@ -103,6 +114,9 @@ page_sections:
     image: ''
     alt_text: ''
   HtmlId: ''
+  background-color: ''
+  headline-color: black
+  content-color: "#666"
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -114,6 +128,9 @@ page_sections:
     image: ''
     alt_text: ''
   HtmlId: ''
+  background-color: ''
+  headline-color: black
+  content-color: "#666"
 - template: content-feature
   block: feature-1
   media_alignment: Right
@@ -129,6 +146,9 @@ page_sections:
     image: ''
     alt_text: ''
   HtmlId: ''
+  background-color: ''
+  headline-color: black
+  content-color: "#666"
 - template: detail-content
   block: text-1
   headline: More Content
@@ -138,9 +158,14 @@ page_sections:
     for devs to understand which tools would benefit them better;</p></li><li><p>An
     overview <a href="https://github.com/JpOnline/looset/blob/master/tools-overview/README.md"
     title="Tools Overview">README</a> of the four tools.</p></li></ul>'
+  background-color: ''
+  headline-color: black
+  content-color: "#666"
 - template: simple-footer
   block: footer-1
   content: <a href="https://jponline.github.io/site/" title="Jp's site">By Jp</a>
+  background-color: ''
+  content-color: "#666"
 
 ---
 foo bar
