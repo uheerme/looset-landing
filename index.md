@@ -45,8 +45,8 @@ page_sections:
       tests and functions and variables are named accordingly with the domain entities,
       but this is not always true.
     headline: Source Code is rarely clean
-    headline-color: "--headline-color"
-    content-color: "--content-color"
+    headline-color: var(--headline-color)
+    content-color: var(--content-color)
   background-color: ''
 - template: title-no-bottom-padding
   block: title
