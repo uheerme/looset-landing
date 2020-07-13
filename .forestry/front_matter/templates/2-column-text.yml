@@ -23,3 +23,8 @@ fields:
     name: column
     label: Column
     template: text-column
+- name: background-color
+  type: text
+  config:
+    required: false
+  label: background-color
