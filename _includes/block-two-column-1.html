@@ -1,14 +1,23 @@
-<section class="block block-two-column-1">
+<section style="background-color: {{ section.background-color }}"
+         class="block block-two-column-1">
   <div class="container">
     <div class="columns">
       <div class="column">
-        <h3>{{ section.col_1.headline }}</h3>
-        <p>{{ section.col_1.content }}</p>
+        <h3 style="{{ section.col_1.headline-color }}">
+          {{ section.col_1.headline }}
+        </h3>
+        <p style="{{ section.col_1.content-color }}">
+          {{ section.col_1.content }}
+        </p>
       </div>
       <div class="column">
-        <h3>{{ section.col_2.headline }}</h3>
-        <p>{{ section.col_2.content }}</p>
-      </div>           
+        <h3 style="{{ section.col_2.headline-color }}">
+          {{ section.col_2.headline }}
+        </h3>
+        <p style="{{ section.col_2.content-color }}">
+          {{ section.col_2.content }}
+        </p>
+      </div>
     </div>
   </div>
 </section>
