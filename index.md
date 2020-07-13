@@ -33,6 +33,11 @@ page_sections:
     would be great if every project is split well in modules, have good documentation,
     tests and functions and variables are named accordingly with the domain entities,
     but this is not always true.
+- template: title-no-bottom-padding
+  block: title
+  content: <img src="/uploads/2020/07/11/diagram-logo.png">
+  HtmlId: looset-diagram
+  headline: ''
 - template: content-feature
   block: feature-1
   media_alignment: Left
