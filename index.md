@@ -99,7 +99,6 @@ page_sections:
   HtmlId: looset-code
   content-color: "#666"
   background-color: ''
-  title-color: black
 - template: content-feature
   block: feature-1
   media_alignment: Right
