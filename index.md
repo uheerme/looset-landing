@@ -25,7 +25,7 @@ page_sections:
   image:
     image: "/uploads/2020/07/07/screencast-python-poetry-org-2020-07-07-10_26_08.gif"
     alt_text: Product Shot
-  background_image: ''
+  background_image: "/uploads/2020/07/13/looset-diagram-gif.gif"
 - template: 2-column-text
   block: two-column-1
   col_2:
