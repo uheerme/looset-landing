@@ -27,7 +27,7 @@ page_sections:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
     alt_text: Product Shot
   background_image: ''
-  background-color: ''
+  background-color: " rgba(252, 250, 252, 1);"
   headline-color: black
   content-color: "#666"
 - template: 2-column-text
@@ -100,6 +100,8 @@ page_sections:
   HtmlId: looset-code
   content-color: "#666"
   background-color: ''
+  headline-color: black
+  title-color: black
 - template: content-feature
   block: feature-1
   media_alignment: Right
