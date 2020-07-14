@@ -88,7 +88,7 @@ page_sections:
     see.
   headline: Collapsable nodes
   media:
-    image: ''
+    image: "/uploads/2020/07/14/gif-3.gif"
     alt_text: ''
   HtmlId: ''
   background-color: ''
