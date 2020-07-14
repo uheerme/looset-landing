@@ -82,10 +82,11 @@ page_sections:
   media_alignment: Right
   content: It automatically generates graph diagrams where each Code Block is a node
     and a connection is created when a Code Block references another Code Block. When
-    a folder is collapsed all its Code Blocks get hidden inside the folder and their
-    connections start to point to the folder, acting as a black box. It's simple to
-    explain and beautiful to see.
-  headline: Graph of Code Blocks references
+    a <strong>folder is collapsed</strong> all its Code Blocks get <strong>hidden
+    inside the folder</strong> and their connections start to point to the folder,
+    acting as a <strong>black box</strong>. It's simple to explain and beautiful to
+    see.
+  headline: Collapsable nodes
   media:
     image: ''
     alt_text: ''
