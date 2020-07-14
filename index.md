@@ -72,7 +72,7 @@ page_sections:
   content: ''
   media:
     alt_text: not yet
-    image: ''
+    image: "/uploads/2020/07/14/gif-2.gif"
   HtmlId: diagram
   background-color: ''
   headline-color: black
