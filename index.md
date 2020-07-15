@@ -111,7 +111,7 @@ page_sections:
     Code Blocks</strong> they are working simultaneously <strong>in one screen</strong>. '
   content: ''
   media:
-    image: ''
+    image: "/uploads/2020/07/15/gif-4.gif"
     alt_text: ''
   HtmlId: ''
   background-color: ''
