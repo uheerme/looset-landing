@@ -125,8 +125,8 @@ page_sections:
     date </strong>is shown both to the Code Block and its docstring, so developers
     can instantly compare it to be sure they can <strong>trust the information</strong>.'
   media:
-    image: ''
-    alt_text: ''
+    image: "/uploads/2020/07/15/gif-5.gif"
+    alt_text: Yellow warning when docstring and code get out of sync.
   HtmlId: ''
   background-color: ''
   headline-color: black
