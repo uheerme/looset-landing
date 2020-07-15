@@ -18,7 +18,7 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-2
   headline: Source Code Visualization
-  content: A family of tools to explore big or unknown code bases.
+  content: A family of tools to explore big or unknown codebases.
   cta:
     enabled: true
     url: https://youtu.be/ktVpk1UukKA
