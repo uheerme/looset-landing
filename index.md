@@ -45,7 +45,7 @@ page_sections:
     content-color: "--content-color"
     background-color: ''
   col_1:
-    content: The problem is when we are facing a big code base that we don't know,
+    content: The problem is when we are facing a big codebase that we don't know,
       it would be great if every project is split well in modules, have good documentation,
       tests and functions and variables are named accordingly with the domain entities,
       but this is not always true.
@@ -106,9 +106,9 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: 'Looset Code helps developers who want to <strong>walk through the code
-    base</strong> efficiently by avoiding managing several opened files and <strong>showing
-    Code Blocks</strong> they are working simultaneously <strong>in one screen</strong>. '
+  headline: Looset Code helps developers who want to <strong>walk through the codebase</strong>
+    efficiently by avoiding managing several opened files and <strong>showing Code
+    Blocks</strong> they are working simultaneously <strong>in one screen</strong>.
   content: ''
   media:
     image: "/uploads/2020/07/15/gif-4.gif"
@@ -135,7 +135,7 @@ page_sections:
   block: feature-1
   media_alignment: Right
   headline: Custom levels of abstractions
-  content: 'With Labels developers have a general overview of the code base better
+  content: 'With Labels developers have a general overview of the codebase better
     than with the file system. A Label is very similar to a folder: it can contain
     Code Blocks and other Labels. The difference is they can be in more than a Label
     at the same time. E.g. a Code Block called <code>getFeatureIdsAt</code> can be
