@@ -112,7 +112,7 @@ page_sections:
   content: ''
   media:
     image: "/uploads/2020/07/15/gif-4.gif"
-    alt_text: ''
+    alt_text: Show only selected Code Blocks.
   HtmlId: ''
   background-color: ''
   headline-color: black
