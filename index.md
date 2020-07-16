@@ -100,11 +100,6 @@ page_sections:
   background-color: ''
   headline-color: black
   title-color: black
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2020/07/11/code-logo.png"
-  caption: ''
-  background-color: ''
 - template: content-feature
   block: feature-1
   media_alignment: Right
