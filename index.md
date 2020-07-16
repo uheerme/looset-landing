@@ -53,7 +53,7 @@ page_sections:
   background-color: var(--bg)
 - template: title-no-bottom-padding
   block: title
-  content: <img src="/uploads/2020/07/11/diagram-logo.png">
+  content: <img src="/looset-landing/uploads/2020/07/11/diagram-logo.png">
   HtmlId: looset-diagram
   background-color: ''
   content-color: "#666"
@@ -94,7 +94,7 @@ page_sections:
 - template: title-no-bottom-padding
   block: title
   headline: ''
-  content: <img src="/uploads/2020/07/11/code-logo.png">
+  content: <img src="/looset-landing/uploads/2020/07/11/code-logo.png">
   HtmlId: looset-code
   content-color: "#666"
   background-color: ''
