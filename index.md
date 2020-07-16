@@ -3,17 +3,14 @@ layout: blocks
 title: A source code explorer for big or unknown projects
 date: 2020-07-08T00:00:00.000+00:00
 page_sections:
-- template: navigation-header-w-button
-  block: header-2
+- template: navigation-header
+  block: header-1
   logo: "/uploads/2020/07/11/logo.png"
   navigation:
   - link: "#looset-diagram"
     link_text: Looset Diagram
   - link: "#looset-code"
     link_text: Looset Code
-  cta:
-    url: https://youtu.be/ktVpk1UukKA
-    button_text: Watch Demo
   background-color: ''
 - template: hero-banner-w-image
   block: hero-2
@@ -148,5 +145,12 @@ page_sections:
   content: <a href="https://jponline.github.io/site/" title="Jp's site">By Jp</a>
   background-color: ''
   content-color: "#666"
+- template: 1-column-text
+  block: one-column-1
+  headline-color: black
+  content-color: "#666"
+  background-color: ''
+  headline: x
+  content: y
 
 ---
