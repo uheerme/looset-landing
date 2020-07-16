@@ -128,6 +128,12 @@ page_sections:
   background-color: ''
   headline-color: var(--headline-color);
   content-color: var(--content-color);
+- template: 1-column-embed
+  block: one-column-embed
+  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/ktVpk1UukKA"
+    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+  background-color: ''
 - template: detail-content
   block: text-1
   headline: More Content
@@ -145,11 +151,5 @@ page_sections:
   content: <a href="https://jponline.github.io/site/" title="Jp's site">By Jp</a>
   background-color: ''
   content-color: "#666"
-- template: 1-column-embed
-  block: one-column-embed
-  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/ktVpk1UukKA"
-    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  background-color: ''
 
 ---
