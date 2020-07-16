@@ -38,8 +38,8 @@ page_sections:
       used in projects that mix HTML, CSS, Javascript, C#, Clojure, Python, Haskell,
       Cobol, Lolcode, etc.
     headline: All Languages Supported
-    headline-color: "--headline-color"
-    content-color: "--content-color"
+    headline-color: var(--headline-color)
+    content-color: var(--content-color)
     background-color: ''
   col_1:
     content: The problem is when we are facing a big codebase that we don't know,
