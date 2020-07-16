@@ -145,5 +145,9 @@ page_sections:
   content: <a href="https://jponline.github.io/site/" title="Jp's site">By Jp</a>
   background-color: ''
   content-color: "#666"
+- template: 1-column-embed
+  block: one-column-embed
+  embed: xyz
+  background-color: ''
 
 ---
