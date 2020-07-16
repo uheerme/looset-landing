@@ -5,6 +5,7 @@ email: JpSoares106@gmail.com
 description: Source code visualization - An explorer for big or unknown projects
 baseurl: "/looset-landing"
 url: ''
+favicon: "/uploads/2020/07/11/favicon.ico"
 defaults:
 - scope:
     path: ''
