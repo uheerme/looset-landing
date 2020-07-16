@@ -147,7 +147,9 @@ page_sections:
   content-color: "#666"
 - template: 1-column-embed
   block: one-column-embed
-  embed: xyz
+  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/ktVpk1UukKA"
+    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
   background-color: ''
 
 ---
