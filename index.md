@@ -24,9 +24,9 @@ page_sections:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
     alt_text: Product Shot
   background_image: ''
-  background-color: " rgba(252, 250, 252, 1);"
-  headline-color: black
-  content-color: "#666"
+  background-color: var(--bg)
+  headline-color: var(--headline-color)
+  content-color: var(--content-color)
 - template: 2-column-text
   block: two-column-1
   col_2:
@@ -71,9 +71,9 @@ page_sections:
     alt_text: not yet
     image: "/uploads/2020/07/14/gif-2.gif"
   HtmlId: diagram
-  background-color: ''
-  headline-color: black
-  content-color: "#666"
+  background-color: var(--bg-secondary)
+  headline-color: var(--headline-color-secondary)
+  content-color: var(--content-color-secondary)
 - template: content-feature
   block: feature-1
   media_alignment: Right
@@ -88,9 +88,9 @@ page_sections:
     image: "/uploads/2020/07/14/gif-3.gif"
     alt_text: ''
   HtmlId: ''
-  background-color: ''
-  headline-color: black
-  content-color: "#666"
+  background-color: var(--bg-secondary)
+  headline-color: var(--headline-color-secondary)
+  content-color: var(--content-color-secondary)
 - template: title-no-bottom-padding
   block: title
   headline: ''
@@ -111,9 +111,9 @@ page_sections:
     image: "/uploads/2020/07/15/gif-4.gif"
     alt_text: Show only selected Code Blocks.
   HtmlId: ''
-  background-color: ''
-  headline-color: black
-  content-color: "#666"
+  background-color: var(--bg-secondary)
+  headline-color: var(--headline-color-secondary)
+  content-color: var(--content-color-secondary)
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -125,15 +125,15 @@ page_sections:
     image: "/uploads/2020/07/16/gif-5.gif"
     alt_text: Yellow warning when docstring and code get out of sync.
   HtmlId: ''
-  background-color: ''
-  headline-color: var(--headline-color);
-  content-color: var(--content-color);
+  background-color: var(--bg-secondary)
+  headline-color: var(--headline-color-secondary);
+  content-color: var(--content-color-secondary);
 - template: 1-column-embed
   block: one-column-embed
   embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/ktVpk1UukKA"
     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
-  background-color: ''
+  background-color: var(--bg)
 - template: detail-content
   block: text-1
   headline: More Content
@@ -143,13 +143,13 @@ page_sections:
     for devs to understand which tools would benefit them better;</p></li><li><p>An
     overview <a href="https://github.com/JpOnline/looset/blob/master/tools-overview/README.md"
     title="Tools Overview">README</a> of the four tools.</p></li></ul>'
-  background-color: ''
-  headline-color: black
-  content-color: "#666"
+  background-color: var(--bg)
+  headline-color: var(--headline-color)
+  content-color: var(--content-color)
 - template: simple-footer
   block: footer-1
   content: <a href="https://jponline.github.io/site/" title="Jp's site">By Jp</a>
-  background-color: ''
-  content-color: "#666"
+  background-color: var(--bg)
+  content-color: var(--content-color)
 
 ---
