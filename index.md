@@ -129,26 +129,8 @@ page_sections:
     alt_text: Yellow warning when docstring and code get out of sync.
   HtmlId: ''
   background-color: ''
-  headline-color: black
-  content-color: "#666"
-- template: content-feature
-  block: feature-1
-  media_alignment: Right
-  headline: Custom levels of abstractions
-  content: 'With Labels developers have a general overview of the codebase better
-    than with the file system. A Label is very similar to a folder: it can contain
-    Code Blocks and other Labels. The difference is they can be in more than a Label
-    at the same time. E.g. a Code Block called <code>getFeatureIdsAt</code> can be
-    in the <code>Main API</code>, so if we expand the Label we can see it''s there,
-    but the same Code Block can also be in the <code>Point</code> Label and we can
-    see it in both places.'
-  media:
-    image: ''
-    alt_text: ''
-  HtmlId: ''
-  background-color: ''
-  headline-color: black
-  content-color: "#666"
+  headline-color: var(--headline-color);
+  content-color: var(--content-color);
 - template: detail-content
   block: text-1
   headline: More Content
@@ -168,4 +150,3 @@ page_sections:
   content-color: "#666"
 
 ---
-foo bar
