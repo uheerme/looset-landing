@@ -1,0 +1,17 @@
+---
+label: 1-column-embed
+hide_body: false
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: one-column-embed
+- name: background-color
+  type: text
+  config:
+    required: false
+  label: background-color
+- type: textarea
+  name: embed
+  label: Embed

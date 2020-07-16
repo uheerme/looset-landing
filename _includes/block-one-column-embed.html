@@ -1,0 +1,11 @@
+<section
+  {% if section.background-color %}
+  style="background-color: {{ section.background-color }};"
+  {% endif %} 
+  class="block block-one-column-1">
+  <div class="container">
+    <div class="columns" style="justify-content: center;">
+      {{ section.embed }}
+    </div>
+  </div>
+</section>
