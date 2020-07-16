@@ -55,7 +55,7 @@ page_sections:
   block: title
   content: <img src="/looset-landing/uploads/2020/07/11/diagram-logo.png">
   HtmlId: looset-diagram
-  background-color: ''
+  background-color: 'var(--bg-secondary)'
   content-color: "#666"
   headline-color: black
   headline: ''
@@ -97,7 +97,7 @@ page_sections:
   content: <img src="/looset-landing/uploads/2020/07/11/code-logo.png">
   HtmlId: looset-code
   content-color: "#666"
-  background-color: ''
+  background-color: 'var(--bg-secondary)'
   headline-color: black
   title-color: black
 - template: content-feature
@@ -133,7 +133,7 @@ page_sections:
   embed: '<iframe width="560" height="315" style="box-shadow: 20px 13px 20px 0px #0000004f;"
     src="https://www.youtube.com/embed/ktVpk1UukKA" frameborder="0" allow="accelerometer;
     autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-  background-color: var(--bg)
+  background-color: var(--bg-secondary)
 - template: detail-content
   block: text-1
   headline: More Content
