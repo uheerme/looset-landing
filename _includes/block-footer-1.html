@@ -1,4 +1,8 @@
-<footer class="block block-footer-1">
+<footer
+  {% if section.background-color %}
+  style="background-color: {{ section.background-color }};"
+  {% endif %} 
+  class="block block-footer-1">
   <div class="container">
     <p style="color: {{ section.content-color }}">{{ section.content }}</p>
   </div>
