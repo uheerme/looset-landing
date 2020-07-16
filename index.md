@@ -100,6 +100,11 @@ page_sections:
   background-color: ''
   headline-color: black
   title-color: black
+- template: full-width-media-element
+  block: media-1
+  image: "/uploads/2020/07/11/code-logo.png"
+  caption: ''
+  background-color: ''
 - template: content-feature
   block: feature-1
   media_alignment: Right
@@ -151,10 +156,5 @@ page_sections:
   content: <a href="https://jponline.github.io/site/" title="Jp's site">By Jp</a>
   background-color: ''
   content-color: "#666"
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2020/07/11/code-logo.png"
-  caption: ''
-  background-color: ''
 
 ---
