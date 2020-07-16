@@ -130,9 +130,9 @@ page_sections:
   content-color: var(--content-color-secondary);
 - template: 1-column-embed
   block: one-column-embed
-  embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/ktVpk1UukKA"
-    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
+  embed: '<iframe width="560" height="315" box-shadow: 20px 13px 20px 0px #0000004f;
+    src="https://www.youtube.com/embed/ktVpk1UukKA" frameborder="0" allow="accelerometer;
+    autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   background-color: var(--bg)
 - template: detail-content
   block: text-1
