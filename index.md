@@ -53,7 +53,7 @@ page_sections:
   background-color: var(--bg)
 - template: title-no-bottom-padding
   block: title
-  content: Jp Looset Diagram
+  content: Looset Diagram
   HtmlId: looset-diagram
   background-color: 'var(--bg-secondary)'
   content-color: var(--content-color-secondary)
@@ -72,7 +72,7 @@ page_sections:
     image: "/uploads/2020/07/14/gif-2.gif"
   HtmlId: diagram
   background-color: var(--bg-secondary)
-  headline-color: var(--headline-color-secondary)
+  headline-color: var(--content-color-secondary)
   content-color: var(--content-color-secondary)
 - template: content-feature
   block: feature-1
@@ -112,7 +112,7 @@ page_sections:
     alt_text: Show only selected Code Blocks.
   HtmlId: ''
   background-color: var(--bg-secondary)
-  headline-color: var(--headline-color-secondary)
+  headline-color: var(--content-color-secondary)
   content-color: var(--content-color-secondary)
 - template: content-feature
   block: feature-1
