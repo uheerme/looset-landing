@@ -53,13 +53,13 @@ page_sections:
   background-color: var(--bg)
 - template: title-no-bottom-padding
   block: title
-  content: <img src="/looset-landing/uploads/2020/07/11/diagram-logo.png">
+  content: Jp Looset Diagram
   HtmlId: looset-diagram
   background-color: 'var(--bg-secondary)'
-  content-color: "#666"
-  headline-color: black
+  content-color: var(--content-color-secondary)
+  headline-color: var(--headline-color-secondary)
   headline: ''
-  title-color: black
+  title-color: var(--headline-color-secondary)
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -94,12 +94,12 @@ page_sections:
 - template: title-no-bottom-padding
   block: title
   headline: ''
-  content: <img src="/looset-landing/uploads/2020/07/11/code-logo.png">
+  content: Looset Code
   HtmlId: looset-code
-  content-color: "#666"
+  content-color: var(--content-color-secondary)
   background-color: 'var(--bg-secondary)'
-  headline-color: black
-  title-color: black
+  headline-color: var(--headline-color-secondary)
+  title-color: var(--headline-color-secondary)
 - template: content-feature
   block: feature-1
   media_alignment: Right

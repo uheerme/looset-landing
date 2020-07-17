@@ -1,16 +1,19 @@
-<section id="{{ section.HtmlId }}"
-         class="block block-one-column-1"
+<section class="block block-one-column-1"
          style="padding-bottom: 5px;
-        {% if section.background-color %}
-          background-color: {{ section.background-color }};
-        {% endif %}
-         ">
+                {% if section.background-color %}
+                  background-color: {{ section.background-color }};
+                {% endif %}">
+  <link href="https://fonts.googleapis.com/css2?family=Quattrocento&display=swap" rel="stylesheet">
   <div class="container">
     <div class="columns">
       <div class="column">
-        <p style="color: {{ section.content-color }}">
+        <h1 id="{{ section.HtmlId }}"
+            style="color: {{ section.content-color }};
+                   font-family: 'Quattrocento', serif;
+                   font-weight: 300;
+                   font-size: 74px">
           {{ section.content }}
-        </p>
+        </h1>
       </div>
     </div>
   </div>
