@@ -142,7 +142,7 @@ page_sections:
     <a href="https://forms.gle/5vbfc54MRXcBodKc7" title="Google Forms survey">survey</a>
     for devs to understand which tools would benefit them better;</p></li><li><p>An
     overview <a href="https://github.com/JpOnline/looset/blob/master/tools-overview/README.md"
-    title="Tools Overview">README</a> of the four tools.</p></li></ul>'
+    title="Tools Overview">README</a> of the four tools.</p></li><li><p>Versão em Português 🇧🇷</p></li></</ul>'
   background-color: var(--bg)
   headline-color: var(--headline-color)
   content-color: var(--content-color)
