@@ -4,11 +4,10 @@
                   background-color: {{ section.background-color }};
                 {% endif %}">
   <link href="https://fonts.googleapis.com/css2?family=Quattrocento&display=swap" rel="stylesheet">
-  <div class="container">
+  <div id="{{ section.HtmlId }}" class="container">
     <div class="columns">
       <div class="column">
-        <h1 id="{{ section.HtmlId }}"
-            style="color: {{ section.headline-color }};
+        <h1 style="color: {{ section.headline-color }};
                    font-family: 'Quattrocento', serif;
                    font-weight: 300;
                    font-size: 74px">
