@@ -14,15 +14,15 @@
 
   <div id="navbarBasic" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item">
-        pt/en
-      </a>
+      <!-- <a class="navbar&#45;item"> -->
+      <!--   pt/en -->
+      <!-- </a> -->
 
     </div>
 
     <div class="navbar-end">
       {% for nav_item in section.navigation %}
-        <a href="{{ nav_item.link | relative_url }}" class="navbar-item is-tab {% if page.url == nav_item.link %}is-active{% endif %}">
+        <a href="{{ nav_item.link | relative_url }}" class="navbar-item">
           {{ nav_item.link_text }}
         </a>
       {% endfor %}
