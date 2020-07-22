@@ -18,7 +18,7 @@ page_sections:
   content: A family of tools to explore big or unknown codebases.
   cta:
     enabled: true
-    url: https://youtu.be/ktVpk1UukKA
+    url: https://youtu.be/x5mZcIVAPcg
     button_text: Demo on Youtube
   image:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
@@ -131,7 +131,7 @@ page_sections:
 - template: 1-column-embed
   block: one-column-embed
   embed: '<iframe width="560" height="315" style="box-shadow: 20px 13px 20px 0px #0000004f;"
-    src="https://www.youtube.com/embed/ktVpk1UukKA" frameborder="0" allow="accelerometer;
+    src="https://www.youtube.com/embed/x5mZcIVAPcg" frameborder="0" allow="accelerometer;
     autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   background-color: var(--bg-secondary)
 - template: detail-content
