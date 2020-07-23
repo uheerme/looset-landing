@@ -17,7 +17,7 @@ page_sections:
   headline: Source Code Visualization
   content: A family of tools to explore big or unknown codebases.
   cta:
-    enabled: true
+    enabled: false
     url: https://youtu.be/x5mZcIVAPcg
     button_text: Demo on Youtube
   image:
