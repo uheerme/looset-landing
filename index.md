@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: A source code explorer for big or unknown projects
-date: 2020-07-16 15:00:00 -0300
+date: 2020-07-16T15:00:00.000-03:00
 page_sections:
 - template: navigation-header
   block: header-1
@@ -23,7 +23,7 @@ page_sections:
   image:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
     alt_text: Product Shot
-  background_image: ''
+  background_image: "/uploads/2020/07/24/time-to-productivity-chart.png"
   background-color: var(--bg)
   headline-color: var(--headline-color)
   content-color: var(--content-color)
@@ -72,7 +72,7 @@ page_sections:
   block: title
   content: Looset Diagram
   HtmlId: looset-diagram
-  background-color: 'var(--bg-secondary)'
+  background-color: var(--bg-secondary)
   content-color: var(--content-color-secondary)
   headline-color: var(--headline-color-secondary)
   headline: ''
@@ -114,7 +114,7 @@ page_sections:
   content: Looset Code
   HtmlId: looset-code
   content-color: var(--content-color-secondary)
-  background-color: 'var(--bg-secondary)'
+  background-color: var(--bg-secondary)
   headline-color: var(--headline-color-secondary)
   title-color: var(--headline-color-secondary)
 - template: content-feature
@@ -154,12 +154,13 @@ page_sections:
 - template: detail-content
   block: text-1
   headline: More Content
-  content: '<ul><li><p>A <a href="https://youtu.be/ktVpk1UukKA" title="The whole Looset
-    Family">video demo</a> of future tools: Looset Glossary and Looset Page;</p></li><li><p>A
-    <a href="https://forms.gle/5vbfc54MRXcBodKc7" title="Google Forms survey">survey</a>
+  content: "<ul><li><p>A <a href=\"https://youtu.be/ktVpk1UukKA\" title=\"The whole
+    Looset Family\">video demo</a> of future tools: Looset Glossary and Looset Page;</p></li><li><p>A
+    <a href=\"https://forms.gle/5vbfc54MRXcBodKc7\" title=\"Google Forms survey\">survey</a>
     for devs to understand which tools would benefit them better;</p></li><li><p>An
-    overview <a href="https://github.com/JpOnline/looset/blob/master/tools-overview/README.md"
-    title="Tools Overview">README</a> of the four tools.</p></li><li hidden><p>Versão em Português 🇧🇷</p></li></</ul>'
+    overview <a href=\"https://github.com/JpOnline/looset/blob/master/tools-overview/README.md\"
+    title=\"Tools Overview\">README</a> of the four tools.</p></li><li hidden><p>Versão
+    em Português \U0001F1E7\U0001F1F7</p></li></</ul>"
   background-color: var(--bg)
   headline-color: var(--headline-color)
   content-color: var(--content-color)
