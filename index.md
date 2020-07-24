@@ -59,7 +59,7 @@ page_sections:
   background-color: var(--bg-secondary)
   headline: How long until new developers become productive?
   media:
-    image: "/uploads/2020/07/23/time-to-productivity-chart.png"
+    image: "/uploads/2020/07/24/time-to-productivity-chart.png"
     alt_text: "Pie chart: Less than a month\t30%, One to three months 44.70%, Three
       to six months 17.40%, Six to nine months 5.10%, Nine months to a year 1.70%,
       More than a year 1.20%."
