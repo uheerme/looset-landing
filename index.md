@@ -51,6 +51,23 @@ page_sections:
     content-color: var(--content-color)
     background-color: ''
   background-color: var(--bg)
+- template: content-feature
+  block: feature-1
+  headline-color: var(--headline-color-secondary)
+  content-color: var(--content-color-secondary)
+  media_alignment: Right
+  background-color: var(--bg-secondary)
+  headline: How long until new developers become productive?
+  media:
+    image: "/uploads/2020/07/23/time-to-productivity-chart.png"
+    alt_text: "Pie chart: Less than a month\t30%, One to three months 44.70%, Three
+      to six months 17.40%, Six to nine months 5.10%, Nine months to a year 1.70%,
+      More than a year 1.20%."
+  content: Code takes time to understand, <a href="https://insights.stackoverflow.com/survey/2018#work-_-how-long-do-developers-expect-new-coworkers-to-take-to-be-productive"
+    title="">StackOverflow survey</a> showed that more than 70% of experient software
+    developers are expect to take more than a month to become productive in a new
+    project.
+  HtmlId: ''
 - template: title-no-bottom-padding
   block: title
   content: Looset Diagram
