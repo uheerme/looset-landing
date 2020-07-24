@@ -16,7 +16,9 @@
         </p>
       </div>
       <div class="column media">
-        <img style="box-shadow: 20px 13px 20px 0px #0000004f;" src="{{ section.media.image | relative_url }}" alt="{{ section.media.alt_text }}">
+        <img style="{% if section.media.has-shadow-box %}box-shadow: 20px 13px 20px 0px #0000004f; {% endif %}"
+             src="{{ section.media.image | relative_url }}"
+             alt="{{ section.media.alt_text }}">
       </div>
     </div>
   </div>
