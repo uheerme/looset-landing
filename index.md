@@ -63,6 +63,7 @@ page_sections:
     alt_text: "Pie chart: Less than a month\t30%, One to three months 44.70%, Three
       to six months 17.40%, Six to nine months 5.10%, Nine months to a year 1.70%,
       More than a year 1.20%."
+    has-shadow-box: true
   content: Code takes time to understand, <a href="https://insights.stackoverflow.com/survey/2018#work-_-how-long-do-developers-expect-new-coworkers-to-take-to-be-productive"
     title="">StackOverflow survey</a> showed that more than 70% of experient software
     developers are expect to take more than a month to become productive in a new
@@ -87,6 +88,7 @@ page_sections:
   media:
     alt_text: not yet
     image: "/uploads/2020/07/14/gif-2.gif"
+    has-shadow-box: false
   HtmlId: diagram
   background-color: var(--bg-secondary)
   headline-color: var(--content-color-secondary)
@@ -104,6 +106,7 @@ page_sections:
   media:
     image: "/uploads/2020/07/14/gif-3.gif"
     alt_text: ''
+    has-shadow-box: false
   HtmlId: ''
   background-color: var(--bg-secondary)
   headline-color: var(--headline-color-secondary)
@@ -127,6 +130,7 @@ page_sections:
   media:
     image: "/uploads/2020/07/15/gif-4.gif"
     alt_text: Show only selected Code Blocks.
+    has-shadow-box: false
   HtmlId: ''
   background-color: var(--bg-secondary)
   headline-color: var(--content-color-secondary)
@@ -141,6 +145,7 @@ page_sections:
   media:
     image: "/uploads/2020/07/16/gif-5.gif"
     alt_text: Yellow warning when docstring and code get out of sync.
+    has-shadow-box: false
   HtmlId: ''
   background-color: var(--bg-secondary)
   headline-color: var(--headline-color-secondary);
