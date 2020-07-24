@@ -48,6 +48,10 @@ fields:
   - type: text
     name: alt_text
     label: Alt text
+  - name: has-shadow-box
+    type: boolean
+    label: Shadow-box?
+    default: true
 - type: select
   name: media_alignment
   config:
