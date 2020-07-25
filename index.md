@@ -68,9 +68,8 @@ page_sections:
     title="">StackOverflow survey</a> showed that more than 70% of experient software
     developers are expect to take more than a month to become productive in a new
     project.<br><br>On average, developers spend only 5% of their time writing and
-    editing code, more than 80% of the time is spent on understanding and navigation.
-    They frequently use web browsers and editors to perform program comprehension
-    activities. <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4781&amp;context=sis_research"
+    editing code, more than 80% of the time is spent on understanding and navigation
+    <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4781&amp;context=sis_research"
     title="Measuring program comprehension: A large-scale field study with professionals.">(XIA,
     2018)</a>.'
   HtmlId: ''
