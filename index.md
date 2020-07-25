@@ -87,7 +87,7 @@ page_sections:
   block: feature-1
   media_alignment: Left
   headline: Looset Diagrams helps you to <strong>understand the code</strong> you
-    work with by giving more than just text colored in a editor and showing a <strong>graph
+    work with by giving more than just text colored in an editor and showing a <strong>graph
     of call references</strong> between Code Blocks. You can visualize how your whole
     system is affected when doing specific changes.
   content: ''
