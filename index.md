@@ -23,7 +23,7 @@ page_sections:
   image:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
     alt_text: Product Shot
-  background_image: ""
+  background_image: ''
   background-color: var(--bg)
   headline-color: var(--headline-color)
   content-color: var(--content-color)
@@ -57,17 +57,22 @@ page_sections:
   content-color: var(--content-color-secondary)
   media_alignment: Right
   background-color: var(--bg-secondary)
-  headline: How long until new developers become productive?
+  headline: Developer time
   media:
     image: "/uploads/2020/07/24/data-charts.gif"
     alt_text: "Pie chart: Less than a month\t30%, One to three months 44.70%, Three
       to six months 17.40%, Six to nine months 5.10%, Nine months to a year 1.70%,
       More than a year 1.20%."
     has-shadow-box: false
-  content: Code takes time to understand, <a href="https://insights.stackoverflow.com/survey/2018#work-_-how-long-do-developers-expect-new-coworkers-to-take-to-be-productive"
+  content: 'Code takes time to understand, <a href="https://insights.stackoverflow.com/survey/2018#work-_-how-long-do-developers-expect-new-coworkers-to-take-to-be-productive"
     title="">StackOverflow survey</a> showed that more than 70% of experient software
     developers are expect to take more than a month to become productive in a new
-    project.
+    project.<br><br>On average, developers spend only 5% of their time writing and
+    editing code, more than 80% of the time is spent on understanding and navigation.
+    They frequently use web browsers and editors to perform program comprehension
+    activities. <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4781&amp;context=sis_research"
+    title="Measuring program comprehension: A large-scale field study with professionals.">(XIA,
+    2018)</a>.'
   HtmlId: ''
 - template: title-no-bottom-padding
   block: title
