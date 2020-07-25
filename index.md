@@ -65,11 +65,12 @@ page_sections:
       More than a year 1.20%."
     has-shadow-box: false
   content: 'Code takes time to understand, <a href="https://insights.stackoverflow.com/survey/2018#work-_-how-long-do-developers-expect-new-coworkers-to-take-to-be-productive"
-    title="">StackOverflow survey</a> showed that more than 70% of experient software
-    developers are expect to take more than a month to become productive in a new
-    project.<br><br>On average, developers spend only 5% of their time writing and
-    editing code, more than 80% of the time is spent on understanding and navigation
-    <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4781&amp;context=sis_research"
+    title="">StackOverflow survey</a> showed that <strong>more than 70%</strong> of
+    experient software developers are expect to take <strong>more than a month to
+    become productive</strong> in a new project.<br><br>On average, developers spend
+    only <strong>5%</strong> of their time <strong>writing and editing</strong> code,
+    more than <strong>80%</strong> of the time is spent on <strong>understanding and
+    navigation</strong> <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4781&amp;context=sis_research"
     title="Measuring program comprehension: A large-scale field study with professionals.">(XIA,
     2018)</a>.'
   HtmlId: ''
