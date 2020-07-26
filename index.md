@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: A source code explorer for big or unknown projects
+title: Source Code Visualizaiton
 date: 2020-07-16T15:00:00.000-03:00
 page_sections:
 - template: navigation-header
