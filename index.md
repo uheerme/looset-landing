@@ -162,6 +162,10 @@ page_sections:
     src="https://www.youtube.com/embed/x5mZcIVAPcg" frameborder="0" allow="accelerometer;
     autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   background-color: var(--bg-secondary)
+- template: signup-bar
+  block: cta-bar
+  email_recipient: JpSoares106@gmail.com
+  content: Would you like to receive updates by email? Subscribe.
 - template: detail-content
   block: text-1
   headline: More Content
