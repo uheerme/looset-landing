@@ -25,6 +25,10 @@ fields:
   - type: text
     name: alt_text
     label: Alt Text
+  - name: has-shadow-box
+    type: boolean
+    label: Shadow-box?
+    default: true
 - type: textarea
   name: headline
   label: Headline
