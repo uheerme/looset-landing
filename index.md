@@ -174,6 +174,7 @@ page_sections:
   image:
     image: "/uploads/2020/07/27/kickstarter-logo.png"
     alt_text: Kickstarter logo
+    url: https://youtu.be/x5mZcIVAPcg
   headline: You can support Looset now
   background_image: ''
   cta:
