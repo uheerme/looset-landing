@@ -17,9 +17,9 @@ page_sections:
   headline: Source Code Visualization
   content: A family of tools to explore big or unknown codebases.
   cta:
-    enabled: false
+    enabled: true
     url: https://youtu.be/x5mZcIVAPcg
-    button_text: Demo on Youtube
+    button_text: Get it!
   image:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
     alt_text: Product Shot
