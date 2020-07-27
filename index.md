@@ -165,7 +165,8 @@ page_sections:
 - template: signup-bar
   block: cta-bar
   email_recipient: JpSoares106@gmail.com
-  content: Would you like to receive updates by email? Subscribe.
+  content: Would you like to receive updates by email?
+  button-text: Subscribe
   background-color: var(--bg)
   content-color: var(--content-color)
 - template: detail-content
