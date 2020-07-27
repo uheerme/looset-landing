@@ -18,3 +18,13 @@ fields:
   name: email_recipient
   label: Email Recipient
   description: Form submissions will be sent to this email address.
+- name: background-color
+  type: text
+  config:
+    required: false
+  label: Background Color
+- name: content-color
+  type: text
+  config:
+    required: false
+  label: Content Color
