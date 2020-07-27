@@ -1,7 +1,7 @@
 ---
 layout: blocks
 title: Source Code Visualizaiton
-date: 2020-07-26 15:00:00 -0300
+date: 2020-07-26T15:00:00.000-03:00
 page_sections:
 - template: navigation-header
   block: header-1
@@ -162,6 +162,24 @@ page_sections:
     src="https://www.youtube.com/embed/x5mZcIVAPcg" frameborder="0" allow="accelerometer;
     autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   background-color: var(--bg-secondary)
+- template: hero-banner-w-image
+  block: hero-2
+  headline-color: var(--content-color-secondary)
+  content-color: var(--content-color-secondary)
+  background-color: var(--bg-secondary)
+  content: 'A lot of open source code gets done for free, but unfortunately I can
+    not afford to spend the amount of time this project requires for free. Kickstarter
+    is a platform where you can contribute with any amount and you only get charged
+    if it reaches the goal. '
+  image:
+    image: "/uploads/2020/07/27/kickstarter-logo.png"
+    alt_text: Kickstarter logo
+  headline: You can support Looset now
+  background_image: ''
+  cta:
+    enabled: false
+    url: ''
+    button_text: ''
 - template: signup-bar
   block: cta-bar
   email_recipient: JpSoares106@gmail.com
