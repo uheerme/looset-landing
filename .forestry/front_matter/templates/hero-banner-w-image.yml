@@ -29,6 +29,12 @@ fields:
     type: boolean
     label: Shadow-box?
     default: true
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+    description: URL that the image points to
 - type: textarea
   name: headline
   label: Headline
