@@ -177,9 +177,9 @@ page_sections:
   headline: You can support Looset now
   background_image: ''
   cta:
-    enabled: false
+    enabled: true
     url: ''
-    button_text: ''
+    button_text: Kickstarter Campaign
 - template: signup-bar
   block: cta-bar
   email_recipient: JpSoares106@gmail.com
