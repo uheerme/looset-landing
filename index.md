@@ -23,6 +23,7 @@ page_sections:
   image:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
     alt_text: Product Shot
+    has-shadow-box: true
   background_image: ''
   background-color: var(--bg)
   headline-color: var(--headline-color)
