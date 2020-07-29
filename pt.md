@@ -8,7 +8,7 @@ page_sections:
   logo: "/uploads/2020/07/11/logo.png"
   navigation-left:
   - link: "/"
-    link_text: <strong>pt</strong>/en
+    link_text: "<strong>pt</strong>/en"
   navigation-right:
   - link: "#looset-diagram"
     link_text: Looset Diagram
@@ -35,13 +35,14 @@ page_sections:
 - template: 2-column-text
   block: two-column-1
   col_2:
-    content: Isso é possível graças a um simples <strong>analizador estático</strong> que
-      identifica <strong>Blocos de Código</strong> e um identificador, o que na maioria dos
-      casos são os nomes de funções. O analizador básico aproveita do fato que desenvolvedores
-      separam os Blocos de Código por <strong>linhas em branco</strong> e usam <strong>indentação
-      </strong> apropriada. Por isso funciona com <strong>qualquer linguagem de programação
-      </strong>, o que é perfeito pra usar em projetos que misturam HTML, CSS, Javascript, C#,
-      Clojure, Python, Haskell, Cobol, Lolcode, etc.
+    content: Isso é possível graças a um simples <strong>analizador estático</strong>
+      que identifica <strong>Blocos de Código</strong> e um identificador, o que na
+      maioria dos casos são os nomes de funções. O analizador básico aproveita do
+      fato que desenvolvedores separam os Blocos de Código por <strong>linhas em branco</strong>
+      e usam <strong>indentação </strong> apropriada. Por isso funciona com <strong>qualquer
+      linguagem de programação </strong>, o que é perfeito pra usar em projetos que
+      misturam HTML, CSS, Javascript, C#, Clojure, Python, Haskell, Cobol, Lolcode,
+      etc.
     headline: Funciona com Todas as Linguagens
     headline-color: var(--headline-color)
     content-color: var(--content-color)
@@ -49,8 +50,8 @@ page_sections:
   col_1:
     content: O problema é quando estamos diante de um projeto gigante que não conhecemos,
       seria ótimo se todo projeto fosse dividido em módulos, tivesse boa documentação,
-      testes e bons nomes de funções e variáveis que são compatíveis com as regras de negócio,
-      mas a vida não é sempre assim.
+      testes e bons nomes de funções e variáveis que são compatíveis com as regras
+      de negócio, mas a vida não é sempre assim.
     headline: Projetos de Software raramente tem código limpo
     headline-color: var(--headline-color)
     content-color: var(--content-color)
@@ -65,17 +66,17 @@ page_sections:
   headline: Tempo do desenvolvedor
   media:
     image: "/uploads/2020/07/24/data-charts.gif"
-    alt_text: "Gráfico de pizza: Menos que um mês 30%, De um a três meses 44.70%,
+    alt_text: 'Gráfico de pizza: Menos que um mês 30%, De um a três meses 44.70%,
       De três a seis meses 17.40%, De seis a nove meses 5.10%, De nove a doze meses
-      1.70%, Mais de um ano 1.20%."
+      1.70%, Mais de um ano 1.20%.'
     has-shadow-box: false
   content: 'Gasta-se muito tempo pra entender código, uma <a href="https://insights.stackoverflow.com/survey/2018#work-_-how-long-do-developers-expect-new-coworkers-to-take-to-be-productive"
     title="">pesquisa do StackOverflow</a> mostrou que é esperado de <strong>mais
     de 70%</strong> de desenvolvedores experientes demorar <strong>mais de um mês
-    para se tornarem produtivos</strong> num novo projeto.<br><br>Na média,
-    desenvolvedores gastam apenas </strong>5%</strong> de seu tempo <strong>
-    escrevendo e editando</strong> código, mais de <strong>80%</strong> do tempo
-    é gasto <strong>entendendo e navegando</strong> pelo código <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4781&amp;context=sis_research"
+    para se tornarem produtivos</strong> num novo projeto.<br><br>Na média, desenvolvedores
+    gastam apenas </strong>5%</strong> de seu tempo <strong> escrevendo e editando</strong>
+    código, mais de <strong>80%</strong> do tempo é gasto <strong>entendendo e navegando</strong>
+    pelo código <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4781&amp;context=sis_research"
     title="Measuring program comprehension: A large-scale field study with professionals.">(XIA,
     2018)</a>.'
   HtmlId: ''
@@ -92,8 +93,9 @@ page_sections:
   block: feature-1
   media_alignment: Left
   headline: Visualize como o sistema é afetado ao fazer mudanças específicas;<br><br>
-    Melhore a comunicação entre stakeholders mostrando como o produto evoluiu pelo tempo;
-    <br><br>Estime o tempo das tarefas com mais precisão entendendo o quão complexas elas são.
+    Melhore a comunicação entre stakeholders mostrando como o produto evoluiu pelo
+    tempo; <br><br>Estime o tempo das tarefas com mais precisão entendendo o quão
+    complexas elas são.
   content: ''
   media:
     alt_text: Diagrama de dependências
@@ -106,13 +108,13 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  content: Looset Diagram te ajuda a <strong>entender o código</strong> que você
-    trabalha te dando mais que apenas texto colorido num editor e mostrando um
-    <strong>grafo de chamadas</strong>. <br><br>Ele gera altomaticamente diagramas
-    onde cada Bloco de Código é um nó e uma conexão é criada quando um Bloco de Código
-    referencia outro. Quando um <strong>diretório é fechado</strong>, todos seus
-    Blocos de Código são <strong>escondidos dentro do diretório</strong> e suas conexão
-    passam a apontar para o nó do diretório, atuando como uma <strong>caixa preta</strong>.
+  content: Looset Diagram te ajuda a <strong>entender o código</strong> que você trabalha
+    te dando mais que apenas texto colorido num editor e mostrando um <strong>grafo
+    de chamadas</strong>. <br><br>Ele gera altomaticamente diagramas onde cada Bloco
+    de Código é um nó e uma conexão é criada quando um Bloco de Código referencia
+    outro. Quando um <strong>diretório é fechado</strong>, todos seus Blocos de Código
+    são <strong>escondidos dentro do diretório</strong> e suas conexão passam a apontar
+    para o nó do diretório, atuando como uma <strong>caixa preta</strong>.
   headline: Projetos enormes passam a fazer sentido
   media:
     image: "/uploads/2020/07/14/gif-3.gif"
@@ -134,10 +136,10 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: Looset Code ajuda desenvolvedores <strong>navegar pelo código</strong>
-    de maneira eficiente evitando abrir vários arquivos ao mesmo tempo e <strong>
-    mostrando os Blocos de Código</strong> que estão trabalhando simultaneamente
-    <strong>numa única tela</strong>.
+  headline: Looset Code ajuda desenvolvedores a <strong>navegar pelo código</strong>
+    de maneira eficiente evitando abrir vários arquivos ao mesmo tempo e <strong>mostrando
+    os Blocos de Código</strong> que estão trabalhando simultaneamente <strong>numa
+    única tela</strong>.
   content: ''
   media:
     image: "/uploads/2020/07/15/gif-4.gif"
@@ -151,10 +153,10 @@ page_sections:
   block: feature-1
   media_alignment: Left
   headline: Resolva seu problema de documentação desatualizada
-  content: 'Veja quando a documentação e o código se desincronizam: A <strong>data do
-    último commit </strong>é mostrada tanto no código quanto na sua docstring, então
-    desenvolvedores podem instantaneamente compará-las e ter certeza que podem <strong>
-    confiar na informação</strong.'
+  content: 'Veja quando a documentação e o código se desincronizam: A <strong>data
+    do último commit </strong>é mostrada tanto no código quanto na sua docstring,
+    então desenvolvedores podem instantaneamente compará-las e ter certeza que podem
+    <strong> confiar na informação</strong.'
   media:
     image: "/uploads/2020/07/16/gif-5.gif"
     alt_text: Aviso em amarelo quando docstring se desatualiza em relação ao código.
@@ -174,10 +176,10 @@ page_sections:
   headline-color: var(--content-color-secondary)
   content-color: var(--content-color-secondary)
   background-color: var(--bg-secondary)
-  content: Muito projeto Open Source é feito de graça, mas infelizmente eu não posso me dar
-    ao luxo de trabalhar a quantidade de horas que esse projeto demanda sem receber. Kickstarter
-    é uma plataforma de financiamente coletivo onde você pode contribuir com qualquer quantia
-    e só é cobrado se eu alcançar meu objetivo.
+  content: Muito projeto Open Source é feito de graça, mas infelizmente eu não posso
+    me dar ao luxo de trabalhar a quantidade de horas que esse projeto demanda sem
+    receber. Kickstarter é uma plataforma de financiamente coletivo onde você pode
+    contribuir com qualquer quantia e só é cobrado se eu alcançar meu objetivo.
   image:
     image: "/uploads/2020/07/27/kickstarter-logo.png"
     alt_text: Kickstarter logo
@@ -187,7 +189,7 @@ page_sections:
   background_image: ''
   cta:
     enabled: true
-    url: 'https://www.kickstarter.com/projects/looset-team/looset?ref=cc2u1z&token=a5fbf465'
+    url: https://www.kickstarter.com/projects/looset-team/looset?ref=cc2u1z&token=a5fbf465
     button_text: Campanha Kickstarter
 - template: signup-bar
   block: cta-bar
@@ -199,13 +201,13 @@ page_sections:
 - template: detail-content
   block: text-1
   headline: Mais Conteúdo
-  content: "<ul><li><p>Um <a href=\"https://youtu.be/ktVpk1UukKA\" title=\"Toda a família
-    Looset\">video demo</a> de futuras ferramentas: Looset Glossary e Looset Page;</p></li><li>
-    <p>Uma <a href=\"https://forms.gle/5vbfc54MRXcBodKc7\" title=\"Google Forms survey\">pesquisa</a>
-    para entender quais ferramentas beneficiariam mais os desenvolvedores;</p></li><li><p>Um
-    <a href=\"https://github.com/JpOnline/looset/blob/master/tools-overview/README.md\"
+  content: "<ul><li><p>Um <a href=\"https://youtu.be/ktVpk1UukKA\" title=\"Toda a
+    família Looset\">video demo</a> de futuras ferramentas: Looset Glossary e Looset
+    Page;</p></li><li> <p>Uma <a href=\"https://forms.gle/5vbfc54MRXcBodKc7\" title=\"Google
+    Forms survey\">pesquisa</a> para entender quais ferramentas beneficiariam mais
+    os desenvolvedores;</p></li><li><p>Um <a href=\"https://github.com/JpOnline/looset/blob/master/tools-overview/README.md\"
     title=\"Tools Overview\">post</a> com uma visão geral sobre as quatro ferramentas.
-    </p></li><li><p><a href=\"/\">English version 🇬🇧</a></p></li></</ul>"
+    </p></li><li><p><a href=\"/\">English version \U0001F1EC\U0001F1E7</a></p></li></</ul>"
   background-color: var(--bg)
   headline-color: var(--headline-color)
   content-color: var(--content-color)
