@@ -12,7 +12,7 @@ page_sections:
   navigation-right:
   - link: "/pt#looset-diagram"
     link_text: Looset Diagram
-  - link: "#looset-code"
+  - link: "/pt#looset-code"
     link_text: Looset Code
   background-color: ''
 - template: hero-banner-w-image
