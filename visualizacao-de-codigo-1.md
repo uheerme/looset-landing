@@ -14,7 +14,7 @@ page_sections:
   background-color: ''
 - template: hero-banner-w-image
   block: hero-2
-  headline: Source Code Visualization
+  headline: Visualização de Código
   content: A family of tools to explore big or unknown codebases.
   cta:
     enabled: true
