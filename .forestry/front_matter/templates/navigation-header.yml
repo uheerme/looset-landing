@@ -10,9 +10,24 @@ fields:
 - type: file
   name: logo
   label: Logo
+- name: navigation-left
+  type: field_group
+  config: {}
+  fields:
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  - name: link_text
+    type: text
+    config:
+      required: false
+    label: Link Text
+  label: Navigation Left
 - type: field_group_list
-  name: navigation
-  label: Navigation
+  name: navigation-right
+  label: Navigation Right
   fields:
   - type: text
     name: link
