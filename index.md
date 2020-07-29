@@ -23,7 +23,8 @@ page_sections:
   image:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
     alt_text: Product Shot
-    has-shadow-box: true
+    has-shadow-box: false
+    url: ''
   background_image: ''
   background-color: var(--bg)
   headline-color: var(--headline-color)
@@ -89,8 +90,10 @@ page_sections:
   media_alignment: Left
   headline: Looset Diagrams helps you to <strong>understand the code</strong> you
     work with by giving more than just text colored in an editor and showing a <strong>graph
-    of call references</strong> between Code Blocks. You can visualize how your whole
-    system is affected when doing specific changes.
+    of call references</strong>. - Visualize how your whole system is affected when
+    doing specific changes;<br>- Improve communication by showing how the product
+    evolved over time;<br>- Estimate how long tasks will take by understanding their
+    complexity.
   content: ''
   media:
     alt_text: not yet
@@ -176,6 +179,7 @@ page_sections:
     image: "/uploads/2020/07/27/kickstarter-logo.png"
     alt_text: Kickstarter logo
     url: https://youtu.be/x5mZcIVAPcg
+    has-shadow-box: false
   headline: You can support Looset now
   background_image: ''
   cta:
@@ -187,7 +191,7 @@ page_sections:
   email_recipient: JpSoares106@gmail.com
   content: Would you like to receive updates by email?
   button-text: Subscribe
-  background-color: #4b7153
+  background-color: var(--bg)
   content-color: var(--content-color)
 - template: detail-content
   block: text-1
