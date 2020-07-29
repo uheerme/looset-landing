@@ -204,7 +204,7 @@ page_sections:
     for devs to understand which tools would benefit them better;</p></li><li><p>An
     overview <a href=\"https://github.com/JpOnline/looset/blob/master/tools-overview/README.md\"
     title=\"Tools Overview\" target=\"_blank\">README</a> of the four tools.</p></li><li><p><a
-    href=\"/looset-landing/pt\" title=\"\" target=\"_blank\">Versão em Português \U0001F1E7\U0001F1F7</a></p></li></ul>"
+    href=\"/looset-landing/pt\">Versão em Português \U0001F1E7\U0001F1F7</a></p></li></ul>"
   background-color: var(--bg)
   headline-color: var(--headline-color)
   content-color: var(--content-color)
