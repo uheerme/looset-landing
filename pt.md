@@ -207,8 +207,8 @@ page_sections:
     title=\"Google Forms survey\" target=\"_blank\">pesquisa</a> para entender quais
     ferramentas beneficiariam mais os desenvolvedores;</p></li><li><p>Um <a href=\"https://github.com/JpOnline/looset/blob/master/tools-overview/README.md\"
     title=\"Tools Overview\" target=\"_blank\">post</a> com uma visão geral sobre
-    as quatro ferramentas.</p></li><li><p><a href=\"/\" target=\"_blank\">English
-    version \U0001F1EC\U0001F1E7</a></p></li><li><p>[testando](#xyz)</p></li></ul>"
+    as quatro ferramentas.</p></li><li><p><a href=\"/looset-landing\" title=\"\" target=\"_blank\">English
+    version \U0001F1EC\U0001F1E7</a></p></li></ul>"
   background-color: var(--bg)
   headline-color: var(--headline-color)
   content-color: var(--content-color)
