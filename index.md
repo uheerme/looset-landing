@@ -90,8 +90,8 @@ page_sections:
   media_alignment: Left
   headline: Looset Diagrams helps you to <strong>understand the code</strong> you
     work with by giving more than just text colored in an editor and showing a <strong>graph
-    of call references</strong>. - Visualize how your whole system is affected when
-    doing specific changes;<br>- Improve communication by showing how the product
+    of call references</strong>.<br>- Visualize how your whole system is affected
+    when doing specific changes;<br>- Improve communication by showing how the product
     evolved over time;<br>- Estimate how long tasks will take by understanding their
     complexity.
   content: ''
