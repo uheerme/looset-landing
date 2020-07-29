@@ -202,12 +202,13 @@ page_sections:
   block: text-1
   headline: Mais Conteúdo
   content: "<ul><li><p>Um <a href=\"https://youtu.be/ktVpk1UukKA\" title=\"Toda a
-    família Looset\">video demo</a> de futuras ferramentas: Looset Glossary e Looset
-    Page;</p></li><li> <p>Uma <a href=\"https://forms.gle/5vbfc54MRXcBodKc7\" title=\"Google
-    Forms survey\">pesquisa</a> para entender quais ferramentas beneficiariam mais
-    os desenvolvedores;</p></li><li><p>Um <a href=\"https://github.com/JpOnline/looset/blob/master/tools-overview/README.md\"
-    title=\"Tools Overview\">post</a> com uma visão geral sobre as quatro ferramentas.
-    </p></li><li><p><a href=\"/\">English version \U0001F1EC\U0001F1E7</a></p></li></</ul>"
+    família Looset\" target=\"_blank\">video demo</a> de futuras ferramentas: Looset
+    Glossary e Looset Page;</p></li><li><p>Uma <a href=\"https://forms.gle/5vbfc54MRXcBodKc7\"
+    title=\"Google Forms survey\" target=\"_blank\">pesquisa</a> para entender quais
+    ferramentas beneficiariam mais os desenvolvedores;</p></li><li><p>Um <a href=\"https://github.com/JpOnline/looset/blob/master/tools-overview/README.md\"
+    title=\"Tools Overview\" target=\"_blank\">post</a> com uma visão geral sobre
+    as quatro ferramentas.</p></li><li><p><a href=\"/\" target=\"_blank\">English
+    version \U0001F1EC\U0001F1E7</a></p></li><li><p>[testando](#xyz)</p></li></ul>"
   background-color: var(--bg)
   headline-color: var(--headline-color)
   content-color: var(--content-color)
