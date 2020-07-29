@@ -7,7 +7,7 @@ page_sections:
   block: header-1
   logo: "/uploads/2020/07/11/logo.png"
   navigation-left:
-  - link: "/pt"
+  - link: {{ "/pt" | relative_url }}
     link_text: pt/<strong>en</strong>
   navigation-right:
   - link: "#looset-diagram"
@@ -21,7 +21,7 @@ page_sections:
   content: A family of tools to explore big or unknown codebases.
   cta:
     enabled: true
-    url: https://youtu.be/x5mZcIVAPcg
+    url: https://www.kickstarter.com/projects/looset-team/looset?ref=cc2u1z&token=a5fbf465
     button_text: Get it!
   image:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
@@ -65,7 +65,7 @@ page_sections:
   headline: Developer time
   media:
     image: "/uploads/2020/07/24/data-charts.gif"
-    alt_text: "Pie chart: Less than a month\t30%, One to three months 44.70%, Three
+    alt_text: "Pie chart: Less than a month 30%, One to three months 44.70%, Three
       to six months 17.40%, Six to nine months 5.10%, Nine months to a year 1.70%,
       More than a year 1.20%."
     has-shadow-box: false
@@ -96,7 +96,7 @@ page_sections:
     long tasks will take by understanding their complexity.
   content: ''
   media:
-    alt_text: not yet
+    alt_text: Dependency graph diagram
     image: "/uploads/2020/07/14/gif-2.gif"
     has-shadow-box: true
   HtmlId: diagram
@@ -112,9 +112,9 @@ page_sections:
     where each Code Block is a node and a connection is created when a Code Block
     references another Code Block. When a <strong>folder is collapsed</strong> all
     its Code Blocks get <strong>hidden inside the folder</strong> and their connections
-    start to point to the folder, acting as a <strong>black box</strong>. It's simple
+    start to point to the folder node, acting as a <strong>black box</strong>. It's simple
     to explain and beautiful to see.
-  headline: Collapsable nodes
+  headline: Making sense of huge projects
   media:
     image: "/uploads/2020/07/14/gif-3.gif"
     alt_text: ''
@@ -141,7 +141,7 @@ page_sections:
   content: ''
   media:
     image: "/uploads/2020/07/15/gif-4.gif"
-    alt_text: Show only selected Code Blocks.
+    alt_text: Code Blocks from different files in one screen.
     has-shadow-box: true
   HtmlId: ''
   background-color: var(--bg-secondary)
@@ -150,7 +150,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: Documentation and Code Synchronization
+  headline: No more out of date documentation
   content: 'See when documentation and code get out of sync: The <strong>last commit
     date </strong>is shown both to the Code Block and its docstring, so developers
     can instantly compare it to be sure they can <strong>trust the information</strong>.'
@@ -203,8 +203,8 @@ page_sections:
     <a href=\"https://forms.gle/5vbfc54MRXcBodKc7\" title=\"Google Forms survey\">survey</a>
     for devs to understand which tools would benefit them better;</p></li><li><p>An
     overview <a href=\"https://github.com/JpOnline/looset/blob/master/tools-overview/README.md\"
-    title=\"Tools Overview\">README</a> of the four tools.</p></li><li><p>Versão
-    em Português \U0001F1E7\U0001F1F7</p></li></</ul>"
+    title=\"Tools Overview\">README</a> of the four tools.</p></li><li><p><a href="{{ "/pt" | relative_url }}">
+    Versão em Português \U0001F1E7\U0001F1F7</a></p></li></</ul>"
   background-color: var(--bg)
   headline-color: var(--headline-color)
   content-color: var(--content-color)
