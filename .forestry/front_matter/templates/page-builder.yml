@@ -34,6 +34,4 @@ fields:
   - 4-column-footer
   - 1-column-embed
 pages:
-- "./visualizacao-de-codigo-1.md"
-- "./visualizacao-de-codigo.md"
 - index.md
