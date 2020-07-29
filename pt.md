@@ -137,8 +137,8 @@ page_sections:
   block: feature-1
   media_alignment: Right
   headline: Looset Code ajuda desenvolvedores a <strong>navegar pelo código</strong>
-    de maneira eficiente evitando abrir vários arquivos ao mesmo tempo e <strong>mostrando
-    os Blocos de Código</strong> que estão trabalhando simultaneamente <strong>numa
+    de maneira eficiente, evitando abrir vários arquivos ao mesmo tempo, e <strong>mostrando
+    os Blocos de Código</strong> que estão trabalhando, simultaneamente <strong>numa
     única tela</strong>.
   content: ''
   media:
