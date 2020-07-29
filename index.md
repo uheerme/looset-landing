@@ -6,7 +6,10 @@ page_sections:
 - template: navigation-header
   block: header-1
   logo: "/uploads/2020/07/11/logo.png"
-  navigation:
+  navigation-left:
+  - link: "/pt"
+    link_text: pt/<strong>en</strong>
+  navigation-right:
   - link: "#looset-diagram"
     link_text: Looset Diagram
   - link: "#looset-code"

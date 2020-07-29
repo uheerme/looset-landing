@@ -11,18 +11,15 @@ fields:
   name: logo
   label: Logo
 - name: navigation-left
-  type: field_group
-  config: {}
+  type: field_group_list
+  config:
+    labelField: link_text
   fields:
   - name: link
     type: text
-    config:
-      required: false
     label: Link
   - name: link_text
     type: text
-    config:
-      required: false
     label: Link Text
   label: Navigation Left
 - type: field_group_list
