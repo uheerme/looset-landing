@@ -210,6 +210,10 @@ page_sections:
   content: <a href="https://jponline.github.io/site/" title="Jp's site">By Jp</a>
   background-color: var(--bg)
   content-color: var(--content-color)
+menu:
+  main:
+    weight: 2
+    title: pt
 published: false
 
 ---
