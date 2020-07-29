@@ -88,12 +88,9 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: Looset Diagrams helps you to <strong>understand the code</strong> you
-    work with by giving more than just text colored in an editor and showing a <strong>graph
-    of call references</strong>.<br>- Visualize how your whole system is affected
-    when doing specific changes;<br>- Improve communication by showing how the product
-    evolved over time;<br>- Estimate how long tasks will take by understanding their
-    complexity.
+  headline: "- Visualize how your whole system is affected when doing specific changes;<br>-
+    Improve communication by showing how the product evolved over time;<br>- Estimate
+    how long tasks will take by understanding their complexity."
   content: ''
   media:
     alt_text: not yet
@@ -106,12 +103,14 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  content: It automatically generates graph diagrams where each Code Block is a node
-    and a connection is created when a Code Block references another Code Block. When
-    a <strong>folder is collapsed</strong> all its Code Blocks get <strong>hidden
-    inside the folder</strong> and their connections start to point to the folder,
-    acting as a <strong>black box</strong>. It's simple to explain and beautiful to
-    see.
+  content: Looset Diagram helps you to <strong>understand the code</strong> you work
+    with by giving more than just text colored in an editor and showing a <strong>graph
+    of call references</strong>. It automatically generates graph diagrams where each
+    Code Block is a node and a connection is created when a Code Block references
+    another Code Block. When a <strong>folder is collapsed</strong> all its Code Blocks
+    get <strong>hidden inside the folder</strong> and their connections start to point
+    to the folder, acting as a <strong>black box</strong>. It's simple to explain
+    and beautiful to see.
   headline: Collapsable nodes
   media:
     image: "/uploads/2020/07/14/gif-3.gif"
