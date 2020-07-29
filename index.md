@@ -7,7 +7,7 @@ page_sections:
   block: header-1
   logo: "/uploads/2020/07/11/logo.png"
   navigation-left:
-  - link: {{ "/pt" | relative_url }}
+  - link: "/pt"
     link_text: pt/<strong>en</strong>
   navigation-right:
   - link: "#looset-diagram"
@@ -198,12 +198,12 @@ page_sections:
 - template: detail-content
   block: text-1
   headline: More Content
-  content: "<ul><li><p>A <a href=\"https://youtu.be/ktVpk1UukKA\" title=\"The whole
-    Looset Family\">video demo</a> of future tools: Looset Glossary and Looset Page;</p></li><li><p>A
+  content: "<ul><li><p>A <a href=\"https://youtu.be/ktVpk1UukKA\">
+    video demo</a> of future tools: Looset Glossary and Looset Page;</p></li><li><p>A
     <a href=\"https://forms.gle/5vbfc54MRXcBodKc7\" title=\"Google Forms survey\">survey</a>
     for devs to understand which tools would benefit them better;</p></li><li><p>An
     overview <a href=\"https://github.com/JpOnline/looset/blob/master/tools-overview/README.md\"
-    title=\"Tools Overview\">README</a> of the four tools.</p></li><li><p><a href="{{ "/pt" | relative_url }}">
+    title=\"Tools Overview\">README</a> of the four tools.</p></li><li><p><a href=\"/pt\">
     Versão em Português \U0001F1E7\U0001F1F7</a></p></li></</ul>"
   background-color: var(--bg)
   headline-color: var(--headline-color)

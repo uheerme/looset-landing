@@ -7,7 +7,7 @@ page_sections:
   block: header-1
   logo: "/uploads/2020/07/11/logo.png"
   navigation-left:
-  - link: {{ "/" | relative_url }}
+  - link: "/"
     link_text: <strong>pt</strong>/en
   navigation-right:
   - link: "#looset-diagram"
@@ -135,9 +135,9 @@ page_sections:
   block: feature-1
   media_alignment: Right
   headline: Looset Code ajuda desenvolvedores <strong>navegar pelo código</strong>
-  de maneira eficiente evitando abrir vários arquivos ao mesmo tempo e <strong>
-  mostrando os Blocos de Código</strong> que estão trabalhando simultaneamente
-  <strong>numa única tela</strong>.
+    de maneira eficiente evitando abrir vários arquivos ao mesmo tempo e <strong>
+    mostrando os Blocos de Código</strong> que estão trabalhando simultaneamente
+    <strong>numa única tela</strong>.
   content: ''
   media:
     image: "/uploads/2020/07/15/gif-4.gif"
@@ -151,10 +151,10 @@ page_sections:
   block: feature-1
   media_alignment: Left
   headline: Resolva seu problema de documentação desatualizada
-  content: Veja quando a documentação e o código se desincronizam: A <strong>data do
+  content: 'Veja quando a documentação e o código se desincronizam: A <strong>data do
     último commit </strong>é mostrada tanto no código quanto na sua docstring, então
     desenvolvedores podem instantaneamente compará-las e ter certeza que podem <strong>
-    confiar na informação</strong.
+    confiar na informação</strong.'
   media:
     image: "/uploads/2020/07/16/gif-5.gif"
     alt_text: Aviso em amarelo quando docstring se desatualiza em relação ao código.
@@ -205,7 +205,7 @@ page_sections:
     para entender quais ferramentas beneficiariam mais os desenvolvedores;</p></li><li><p>Um
     <a href=\"https://github.com/JpOnline/looset/blob/master/tools-overview/README.md\"
     title=\"Tools Overview\">post</a> com uma visão geral sobre as quatro ferramentas.
-    </p></li><li><p><a href="{{ "/" | relative_url }}">English version 🇬🇧</a></p></li></</ul>"
+    </p></li><li><p><a href=\"/\">English version 🇬🇧</a></p></li></</ul>"
   background-color: var(--bg)
   headline-color: var(--headline-color)
   content-color: var(--content-color)
