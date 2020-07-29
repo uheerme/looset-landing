@@ -23,7 +23,7 @@ page_sections:
   image:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
     alt_text: Product Shot
-    has-shadow-box: false
+    has-shadow-box: true
     url: ''
   background_image: ''
   background-color: var(--bg)
@@ -190,7 +190,7 @@ page_sections:
   email_recipient: JpSoares106@gmail.com
   content: Would you like to receive updates by email?
   button-text: Subscribe
-  background-color: var(--bg)
+  background-color: "#4b7153"
   content-color: var(--content-color)
 - template: detail-content
   block: text-1
