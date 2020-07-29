@@ -10,7 +10,7 @@ page_sections:
   - link: "/"
     link_text: "<strong>pt</strong>/en"
   navigation-right:
-  - link: "#looset-diagram"
+  - link: "/pt#looset-diagram"
     link_text: Looset Diagram
   - link: "#looset-code"
     link_text: Looset Code
