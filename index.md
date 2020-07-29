@@ -65,9 +65,9 @@ page_sections:
   headline: Developer time
   media:
     image: "/uploads/2020/07/24/data-charts.gif"
-    alt_text: "Pie chart: Less than a month 30%, One to three months 44.70%, Three
+    alt_text: 'Pie chart: Less than a month 30%, One to three months 44.70%, Three
       to six months 17.40%, Six to nine months 5.10%, Nine months to a year 1.70%,
-      More than a year 1.20%."
+      More than a year 1.20%.'
     has-shadow-box: false
   content: 'Code takes time to understand, <a href="https://insights.stackoverflow.com/survey/2018#work-_-how-long-do-developers-expect-new-coworkers-to-take-to-be-productive"
     title="">StackOverflow survey</a> showed that <strong>more than 70%</strong> of
@@ -112,8 +112,8 @@ page_sections:
     where each Code Block is a node and a connection is created when a Code Block
     references another Code Block. When a <strong>folder is collapsed</strong> all
     its Code Blocks get <strong>hidden inside the folder</strong> and their connections
-    start to point to the folder node, acting as a <strong>black box</strong>. It's simple
-    to explain and beautiful to see.
+    start to point to the folder node, acting as a <strong>black box</strong>. It's
+    simple to explain and beautiful to see.
   headline: Making sense of huge projects
   media:
     image: "/uploads/2020/07/14/gif-3.gif"
@@ -198,13 +198,13 @@ page_sections:
 - template: detail-content
   block: text-1
   headline: More Content
-  content: "<ul><li><p>A <a href=\"https://youtu.be/ktVpk1UukKA\">
-    video demo</a> of future tools: Looset Glossary and Looset Page;</p></li><li><p>A
-    <a href=\"https://forms.gle/5vbfc54MRXcBodKc7\" title=\"Google Forms survey\">survey</a>
+  content: "<ul><li><p>A <a href=\"https://youtu.be/ktVpk1UukKA\" target=\"_blank\">video
+    demo</a> of future tools: Looset Glossary and Looset Page;</p></li><li><p>A <a
+    href=\"https://forms.gle/5vbfc54MRXcBodKc7\" title=\"Google Forms survey\" target=\"_blank\">survey</a>
     for devs to understand which tools would benefit them better;</p></li><li><p>An
     overview <a href=\"https://github.com/JpOnline/looset/blob/master/tools-overview/README.md\"
-    title=\"Tools Overview\">README</a> of the four tools.</p></li><li><p><a href=\"/pt\">
-    Versão em Português \U0001F1E7\U0001F1F7</a></p></li></</ul>"
+    title=\"Tools Overview\" target=\"_blank\">README</a> of the four tools.</p></li><li><p><a
+    href=\"/looset-landing/pt\" title=\"\" target=\"_blank\">Versão em Português \U0001F1E7\U0001F1F7</a></p></li></ul>"
   background-color: var(--bg)
   headline-color: var(--headline-color)
   content-color: var(--content-color)
