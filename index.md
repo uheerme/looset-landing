@@ -180,13 +180,13 @@ page_sections:
   image:
     image: "/uploads/2020/07/27/kickstarter-logo.png"
     alt_text: Kickstarter logo
-    url: https://youtu.be/x5mZcIVAPcg
+    url: https://www.kickstarter.com/projects/looset-team/looset
     has-shadow-box: false
   headline: You can support Looset now
   background_image: ''
   cta:
     enabled: true
-    url: ''
+    url: https://www.kickstarter.com/projects/looset-team/looset
     button_text: Kickstarter Campaign
 - template: signup-bar
   block: cta-bar
