@@ -70,12 +70,12 @@ page_sections:
       De três a seis meses 17.40%, De seis a nove meses 5.10%, De nove a doze meses
       1.70%, Mais de um ano 1.20%.'
     has-shadow-box: false
-  content: 'Gasta-se muito tempo pra entender código, uma <a href="https://insights.stackoverflow.com/survey/2018#work-_-how-long-do-developers-expect-new-coworkers-to-take-to-be-productive"
+  content: 'Gasta-se muito tempo pra entender código. Uma <a href="https://insights.stackoverflow.com/survey/2018#work-_-how-long-do-developers-expect-new-coworkers-to-take-to-be-productive"
     title="">pesquisa do StackOverflow</a> mostrou que é esperado de <strong>mais
     de 70%</strong> de desenvolvedores experientes demorar <strong>mais de um mês
     para se tornarem produtivos</strong> num novo projeto.<br><br>Na média, desenvolvedores
-    gastam apenas </strong>5%</strong> de seu tempo <strong> escrevendo e editando</strong>
-    código, mais de <strong>80%</strong> do tempo é gasto <strong>entendendo e navegando</strong>
+    gastam apenas 5% de seu tempo <strong>escrevendo e editando</strong> código, mais
+    de <strong>80%</strong> do tempo é gasto <strong>entendendo e navegando</strong>
     pelo código <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4781&amp;context=sis_research"
     title="Measuring program comprehension: A large-scale field study with professionals.">(XIA,
     2018)</a>.'
