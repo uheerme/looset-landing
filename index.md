@@ -40,8 +40,9 @@ page_sections:
       and its name. The basic analyzer rely in the fact that developers split Code
       Blocks by <strong>blank lines</strong> and use appropriate <strong>indentation</strong>.
       It works with <strong>any language</strong>, this is why it's perfect to be
-      used in projects that mix HTML, CSS, Javascript, C#, Clojure, Python, Haskell,
-      Cobol, Lolcode, etc.
+      used in projects that mix HTML, CSS, Javascript, C#, Java, Clojure, Go, Rust,
+      Bash, R, Ruby, Swifty, SQL, Kotlin, Lua, Scala, VBA, Python, Haskell, Cobol,
+      Lolcode, etc.
     headline: All Languages Supported
     headline-color: var(--headline-color)
     content-color: var(--content-color)
