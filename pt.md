@@ -39,10 +39,10 @@ page_sections:
       que identifica <strong>Blocos de Código</strong> e um identificador, o que na
       maioria dos casos são os nomes de funções. O analizador básico aproveita do
       fato que desenvolvedores separam os Blocos de Código por <strong>linhas em branco</strong>
-      e usam <strong>indentação </strong> apropriada. Por isso funciona com <strong>qualquer
+      e usam <strong>indentação </strong>apropriada. Por isso funciona com <strong>qualquer
       linguagem de programação </strong>, o que é perfeito pra usar em projetos que
-      misturam HTML, CSS, Javascript, C#, Clojure, Python, Haskell, Cobol, Lolcode,
-      etc.
+      misturam HTML, CSS, Javascript, C#, Java, Clojure, Go, Rust, Bash, R, Ruby,
+      Swifty, SQL, Kotlin, Lua, Scala, VBA, Python, Haskell, Cobol, Lolcode, etc.
     headline: Funciona com Todas as Linguagens
     headline-color: var(--headline-color)
     content-color: var(--content-color)
@@ -207,8 +207,8 @@ page_sections:
     title=\"Google Forms survey\" target=\"_blank\">pesquisa</a> para entender quais
     ferramentas beneficiariam mais os desenvolvedores;</p></li><li><p>Um <a href=\"https://github.com/JpOnline/looset/blob/master/tools-overview/README.md\"
     title=\"Tools Overview\" target=\"_blank\">post</a> com uma visão geral sobre
-    as quatro ferramentas.</p></li><li><p><a href=\"/looset-landing\">English
-    version \U0001F1EC\U0001F1E7</a></p></li></ul>"
+    as quatro ferramentas.</p></li><li><p><a href=\"/looset-landing\">English version
+    \U0001F1EC\U0001F1E7</a></p></li></ul>"
   background-color: var(--bg)
   headline-color: var(--headline-color)
   content-color: var(--content-color)
