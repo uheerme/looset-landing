@@ -21,7 +21,7 @@ page_sections:
   content: A family of tools to explore big or unknown codebases.
   cta:
     enabled: true
-    url: https://www.kickstarter.com/projects/looset-team/looset?ref=cc2u1z&token=a5fbf465
+    url: https://www.kickstarter.com/projects/looset-team/looset?ref=ahrz8q
     button_text: Get it!
   image:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
@@ -187,7 +187,7 @@ page_sections:
   background_image: ''
   cta:
     enabled: true
-    url: https://www.kickstarter.com/projects/looset-team/looset
+    url: https://www.kickstarter.com/projects/looset-team/looset?ref=ahrz8q
     button_text: Kickstarter Campaign
 - template: signup-bar
   block: cta-bar
