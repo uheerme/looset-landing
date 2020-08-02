@@ -169,8 +169,8 @@ page_sections:
     src="https://www.youtube.com/embed/x5mZcIVAPcg" frameborder="0" allow="accelerometer;
     autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   background-color: var(--bg-secondary)
-- template: hero-banner-w-image
-  block: hero-2
+- template: hero-banner-w-embed
+  block: hero-embed
   headline-color: var(--content-color-secondary)
   content-color: var(--content-color-secondary)
   background-color: var(--bg-secondary)
@@ -178,11 +178,8 @@ page_sections:
     not afford to spend the amount of time this project requires for free. Kickstarter
     is a platform where you can contribute with any amount and you only get charged
     if it reaches the goal. '
-  image:
-    image: "/uploads/2020/07/27/kickstarter-logo.png"
-    alt_text: Kickstarter logo
-    url: https://www.kickstarter.com/projects/looset-team/looset
-    has-shadow-box: false
+  embed: '<iframe src="https://www.kickstarter.com/projects/looset-team/looset/widget/card.html?v=2"
+    width="220" height="420" frameborder="0" scrolling="no"></iframe>'
   headline: You can support Looset now
   background_image: ''
   cta:
