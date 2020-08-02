@@ -171,8 +171,8 @@ page_sections:
     src="https://www.youtube.com/embed/x5mZcIVAPcg" frameborder="0" allow="accelerometer;
     autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   background-color: var(--bg-secondary)
-- template: hero-banner-w-image
-  block: hero-2
+- template: hero-banner-w-embed
+  block: hero-embed
   headline-color: var(--content-color-secondary)
   content-color: var(--content-color-secondary)
   background-color: var(--bg-secondary)
@@ -180,11 +180,8 @@ page_sections:
     me dar ao luxo de trabalhar a quantidade de horas que esse projeto demanda sem
     receber. Kickstarter é uma plataforma de financiamente coletivo onde você pode
     contribuir com qualquer quantia e só é cobrado se eu alcançar meu objetivo.
-  image:
-    image: "/uploads/2020/07/27/kickstarter-logo.png"
-    alt_text: Kickstarter logo
-    url: https://www.kickstarter.com/projects/looset-team/looset?ref=cc2u1z&token=a5fbf465
-    has-shadow-box: false
+  embed: '<iframe src="https://www.kickstarter.com/projects/looset-team/looset/widget/card.html?v=2"
+    width="430" height="510" frameborder="0" scrolling="no"></iframe>'
   headline: Você pode apoiar o Looset agora mesmo
   background_image: ''
   cta:

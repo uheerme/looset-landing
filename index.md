@@ -179,7 +179,7 @@ page_sections:
     is a platform where you can contribute with any amount and you only get charged
     if it reaches the goal. '
   embed: '<iframe src="https://www.kickstarter.com/projects/looset-team/looset/widget/card.html?v=2"
-    width="220" height="420" frameborder="0" scrolling="no"></iframe>'
+    width="430" height="510" frameborder="0" scrolling="no"></iframe>'
   headline: You can support Looset now
   background_image: ''
   cta:
