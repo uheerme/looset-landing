@@ -21,7 +21,7 @@ page_sections:
   content: Uma família de ferramentas para explorar projetos grandes e complexos.
   cta:
     enabled: true
-    url: https://www.kickstarter.com/projects/looset-team/looset?ref=cc2u1z&token=a5fbf465
+    url: https://www.kickstarter.com/projects/looset-team/looset?ref=ahrz8q
     button_text: Usar
   image:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
@@ -189,7 +189,7 @@ page_sections:
   background_image: ''
   cta:
     enabled: true
-    url: https://www.kickstarter.com/projects/looset-team/looset?ref=cc2u1z&token=a5fbf465
+    url: https://www.kickstarter.com/projects/looset-team/looset?ref=ahrz8q
     button_text: Campanha Kickstarter
 - template: signup-bar
   block: cta-bar
