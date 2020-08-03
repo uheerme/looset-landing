@@ -178,10 +178,10 @@ page_sections:
   background-color: var(--bg-secondary)
   content: Muito projeto Open Source é feito de graça, mas infelizmente eu não posso
     me dar ao luxo de trabalhar a quantidade de horas que esse projeto demanda sem
-    receber. Kickstarter é uma plataforma de financiamente coletivo onde você pode
+    receber. Kickstarter é uma plataforma de financiamento coletivo onde você pode
     contribuir com qualquer quantia e só é cobrado se eu alcançar meu objetivo.
-  embed: '<iframe src="https://www.kickstarter.com/projects/looset-team/looset/widget/card.html?v=2"
-    width="430" height="510" frameborder="0" scrolling="no"></iframe>'
+  embed: <iframe src="https://www.kickstarter.com/projects/looset-team/looset/widget/card.html?v=2"
+    width="430" height="510" frameborder="0" scrolling="no"></iframe>
   headline: Você pode apoiar o Looset agora mesmo
   background_image: ''
   cta:
