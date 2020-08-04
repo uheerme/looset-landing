@@ -21,7 +21,7 @@ page_sections:
   content: Uma família de ferramentas para explorar projetos grandes e complexos.
   cta:
     enabled: true
-    url: "#developer-time"
+    url: pt/#developer-time
     button_text: <i class="fas fa-angle-double-down"></i>
   image:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
