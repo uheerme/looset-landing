@@ -22,7 +22,7 @@ page_sections:
   cta:
     enabled: true
     url: "#developer-time"
-    button_text: V
+    button_text: <i class="fas fa-angle-double-down"></i>
   image:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
     alt_text: Product Shot
