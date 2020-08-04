@@ -21,8 +21,8 @@ page_sections:
   content: A family of tools to explore big or unknown codebases.
   cta:
     enabled: true
-    url: https://www.kickstarter.com/projects/looset-team/looset?ref=ahrz8q
-    button_text: Get it!
+    url: "#developer-time"
+    button_text: V
   image:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
     alt_text: Product Shot
@@ -79,7 +79,7 @@ page_sections:
     navigation</strong> <a href="https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=4781&amp;context=sis_research"
     title="Measuring program comprehension: A large-scale field study with professionals.">(XIA,
     2018)</a>.'
-  HtmlId: ''
+  HtmlId: developer-time
 - template: title-no-bottom-padding
   block: title
   content: Looset Diagram
@@ -178,8 +178,8 @@ page_sections:
     not afford to spend the amount of time this project requires for free. Kickstarter
     is a platform where you can contribute with any amount and you only get charged
     if it reaches the goal. '
-  embed: '<iframe src="https://www.kickstarter.com/projects/looset-team/looset/widget/card.html?v=2"
-    width="430" height="510" frameborder="0" scrolling="no"></iframe>'
+  embed: <iframe src="https://www.kickstarter.com/projects/looset-team/looset/widget/card.html?v=2"
+    width="430" height="510" frameborder="0" scrolling="no"></iframe>
   headline: You can support Looset now
   background_image: ''
   cta:
