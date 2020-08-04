@@ -21,8 +21,8 @@ page_sections:
   content: Uma família de ferramentas para explorar projetos grandes e complexos.
   cta:
     enabled: true
-    url: https://www.kickstarter.com/projects/looset-team/looset?ref=ahrz8q
-    button_text: Usar
+    url: "#developer-time"
+    button_text: V
   image:
     image: "/uploads/2020/07/13/looset-diagram-gif.gif"
     alt_text: Product Shot
