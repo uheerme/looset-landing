@@ -1,0 +1,12 @@
+---
+label: free-html
+hide_body: false
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: block-free-html
+- type: textarea
+  name: html
+  label: HTML

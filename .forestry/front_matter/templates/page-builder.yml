@@ -34,6 +34,7 @@ fields:
   - simple-footer
   - 4-column-footer
   - 1-column-embed
+  - free-html
 pages:
 - index.md
 - pt.md
