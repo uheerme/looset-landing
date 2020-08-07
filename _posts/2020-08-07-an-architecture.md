@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "An Architecture"
+title:  "An Architecture for Community Contribution, Speed and Modularity"
 author: Jp
 image: assets/images/cells.jpg
 description: "Details of how I'm planning Looset's architecture."
