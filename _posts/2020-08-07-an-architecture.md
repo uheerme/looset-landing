@@ -10,9 +10,9 @@ hidden: true
 toc: true
 ---
 
-I'll tell you some of my opinions about Software Architecture and what are my plans for Looset.
+I'll tell you some of my opinions about Software Architecture and what are our plans for Looset.
 
-It'll watch you source files changes to show in realtime a dependencies diagram and Code Block viewer independent of the filesystem. Check it out in the [main page](https://jponline.github.io/looset-landing/)
+It'll watch you source files changes to show in realtime a dependencies diagram and Code Block viewer independent of the filesystem. Check it out in the [main page](https://jponline.github.io/looset-landing/).
 
 We haven't start to work in Looset yet, but I've thought a bit about its architecture. I believe the "building" metaphor is bad when talking about software, I prefer the "grow" metaphor. When we think about our software as a living organism that needs constant care we make better decisions about it.
 
@@ -48,9 +48,9 @@ I've already created a web app from scratch without a State Management System as
 Other decisions about how to structure the app state also needs to be done. I like to have it as normalized as possible and splitting what are domain entities (basically what we would write in a database) and UI models (component states) also computing as little as possible in the rendering phase, [treating the UI as a Finite State Machine](https://cognitect.com/blog/2017/5/22/restate-your-ui-using-state-machines-to-simplify-user-interface-development).
 
 ## Tests
-I like very much the Test Driven Development approach, what is good not only for tests but for structuring dependencies in a testable way. I tend to write them in a BDD style using the [Given, When, Then Gherkin syntax](https://cucumber.io/docs/gherkin/reference/). we'll mostly write unit tests for the back-end, but I don't think unit tests are that valuable for the front-end. I've already used [Puppeteer](https://github.com/puppeteer/puppeteer) to write end-to-end tests, clicking in buttons, taking screenshots, etc. But for Looset we'll use it basically to have a production like environment, but only firing events and checking the result app state.
+I like very much the Test Driven Development approach, what is good not only for tests but for structuring dependencies in a testable way. I tend to write them in a BDD style using the [Given, When, Then Gherkin syntax](https://cucumber.io/docs/gherkin/reference/). We'll mostly write unit tests for the back-end, but I don't think unit tests are that valuable for the front-end. I've already used [Puppeteer](https://github.com/puppeteer/puppeteer) to write end-to-end tests, clicking in buttons, taking screenshots, etc. But for Looset we'll use it basically to have a production like environment, but only firing events and checking the result app state.
 
-Another strategy that is sometimes viewed as tests, but I use more as a way to develop and prototype is [Devcards](https://github.com/bhauman/devcards). we'll use it to visualize all components in multiple states at once while we're developing and tweaking the app state.
+Another strategy that is sometimes viewed as tests, but I use more as a way to develop and prototype is [Devcards](https://github.com/bhauman/devcards). We'll use it to visualize all components in multiple states at once while we're developing and tweaking the app state.
 
 ## Speed
 In most projects the performance is not a top priority for me because I don't expect to work with huge amounts of data, what's different in this project. A main concern is how fast it's going to be to interact with big projects generating large graphs. To address this problem we'll have Web Workers or background processes generating caches for the visualizations.
@@ -65,4 +65,3 @@ We created a campaign to both validate the interest and also to be able to inves
 [The Kickstarter Campaign](https://www.kickstarter.com/projects/looset-team/looset?ref=1i0fmm)
 
 <iframe src="https://www.kickstarter.com/projects/looset-team/looset/widget/card.html?v=2" width="430" height="510" frameborder="0" scrolling="no"></iframe>
-
