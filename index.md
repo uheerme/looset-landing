@@ -15,23 +15,6 @@ page_sections:
   - link: "#looset-code"
     link_text: Looset Code
   background-color: ''
-- template: hero-banner-w-image
-  block: hero-2
-  headline: Source Code Visualization
-  content: A family of tools to explore big or unknown codebases.
-  cta:
-    enabled: true
-    url: "#developer-time"
-    button_text: <i class="fas fa-angle-double-down"></i>
-  image:
-    image: "/uploads/2020/07/13/looset-diagram-gif.gif"
-    alt_text: Product Shot
-    has-shadow-box: true
-    url: ''
-  background_image: ''
-  background-color: var(--bg)
-  headline-color: var(--headline-color)
-  content-color: var(--content-color)
 - template: free-html
   block: free-html
   html: "<section class=\"block block-hero-2\" style=\"background-color: var(--bg)\">\n
