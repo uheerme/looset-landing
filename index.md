@@ -10,6 +10,8 @@ page_sections:
   - link: "/pt"
     link_text: pt/<strong>en</strong>
   navigation-right:
+  - link: "an-architecture"
+    link_text: Blog
   - link: "#looset-diagram"
     link_text: Looset Diagram
   - link: "#looset-code"
