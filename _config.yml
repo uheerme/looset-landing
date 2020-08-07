@@ -1,16 +1,56 @@
 ---
+# Site
+name: "Looset"
 title: Looset
 author: João Paulo
 email: JpSoares106@gmail.com
-description: Source code visualization - An explorer for big or unknown projects
+description: "Source code visualization - An explorer for big or complex projects."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+landing-favicon: "/uploads/2020/07/11/favicon.ico"
 baseurl: "/looset-landing"
 url: ''
-favicon: "/uploads/2020/07/11/favicon.ico"
+google_analytics: 'UA-173586841-2'
+mailchimp-list: 'https://github.us17.list-manage.com/subscribe/post?u=e3980ca0503a12af945d921a2&amp;id=8a3343e68d'
+permalink: /:title/
 defaults:
 - scope:
     path: ''
   values:
     layout: default
+
+# Plugins
 plugins:
 - jekyll-feed
 - jekyll-menus
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-archives
+
+# Authors
+authors:
+  Jp:
+    name: Jp
+    display_name: João Paulo Soares
+    gravatar: 0cdeb0b85d496cc3559c8f913cc7276c
+    email: JpSoares106@gmail.com
+    web: http://jponline.github.io/site
+    twitter: https://twitter.com/JP0nline
+    description: "Improving how developers face those huge software projects nobody knows how it works."
+
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+exclude: [LICENSE, README.md, Gemfile, Gemfile.lock]
