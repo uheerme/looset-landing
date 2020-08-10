@@ -11,7 +11,7 @@ page_sections:
   - link: "/"
     link_text: "<strong>pt</strong>/en"
   navigation-right:
-  - link: "an-architecture"
+  - link: an-architecture
     link_text: Blog
   - link: "/pt#looset-diagram"
     link_text: Looset Diagram
@@ -38,9 +38,9 @@ page_sections:
 - template: 2-column-text
   block: two-column-1
   col_2:
-    content: Isso é possível graças a um simples <strong>analizador estático</strong>
+    content: Isso é possível graças a um simples <strong>analisador estático</strong>
       que identifica <strong>Blocos de Código</strong> e um identificador, o que na
-      maioria dos casos são os nomes de funções. O analizador básico aproveita do
+      maioria dos casos são os nomes de funções. O analisador básico aproveita do
       fato que desenvolvedores separam os Blocos de Código por <strong>linhas em branco</strong>
       e usam <strong>indentação </strong>apropriada. Por isso funciona com <strong>qualquer
       linguagem de programação </strong>, o que é perfeito pra usar em projetos que
@@ -95,10 +95,10 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: Visualize como o sistema é afetado ao fazer mudanças específicas;<br><br>
-    Melhore a comunicação entre stakeholders mostrando como o produto evoluiu pelo
-    tempo; <br><br>Estime o tempo das tarefas com mais precisão entendendo o quão
-    complexas elas são.
+  headline: "<strong>Visualize</strong> como o sistema é afetado ao fazer mudanças
+    específicas;<br><br>Melhore a <strong>comunicação</strong> entre stakeholders
+    mostrando como o produto evoluiu pelo tempo; <br><br>Estime o tempo das tarefas
+    com mais <strong>precisão</strong> entendendo o quão complexas elas são."
   content: ''
   media:
     alt_text: Diagrama de dependências
@@ -113,10 +113,10 @@ page_sections:
   media_alignment: Right
   content: Looset Diagram te ajuda a <strong>entender o código</strong> que você trabalha
     te dando mais que apenas texto colorido num editor e mostrando um <strong>grafo
-    de chamadas</strong>. <br><br>Ele gera altomaticamente diagramas onde cada Bloco
+    de chamadas</strong>. <br><br>Ele gera automaticamente diagramas onde cada Bloco
     de Código é um nó e uma conexão é criada quando um Bloco de Código referencia
     outro. Quando um <strong>diretório é fechado</strong>, todos seus Blocos de Código
-    são <strong>escondidos dentro do diretório</strong> e suas conexão passam a apontar
+    são <strong>escondidos dentro do diretório</strong> e suas conexões passam a apontar
     para o nó do diretório, atuando como uma <strong>caixa preta</strong>.
   headline: Projetos enormes passam a fazer sentido
   media:
@@ -156,10 +156,10 @@ page_sections:
   block: feature-1
   media_alignment: Left
   headline: Resolva seu problema de documentação desatualizada
-  content: 'Veja quando a documentação e o código se desincronizam: A <strong>data
+  content: 'Veja quando a documentação e o código se dessincronizam: A <strong>data
     do último commit </strong>é mostrada tanto no código quanto na sua docstring,
     então desenvolvedores podem instantaneamente compará-las e ter certeza que podem
-    <strong> confiar na informação</strong.'
+    <strong>confiar na informação</strong>'
   media:
     image: "/uploads/2020/07/16/gif-5.gif"
     alt_text: Aviso em amarelo quando docstring se desatualiza em relação ao código.
@@ -202,13 +202,12 @@ page_sections:
   block: text-1
   headline: Mais Conteúdo
   content: "<ul><li><p>Um <a href=\"https://youtu.be/ktVpk1UukKA\" title=\"Toda a
-    família Looset\" target=\"_blank\">video demo</a> de futuras ferramentas: Looset
-    Glossary e Looset Page;</p></li><li><p>Uma <a href=\"https://forms.gle/5vbfc54MRXcBodKc7\"
-    title=\"Google Forms survey\" target=\"_blank\">pesquisa</a> para entender quais
-    ferramentas beneficiariam mais os desenvolvedores;</p></li><li><p>Um <a href=\"https://github.com/JpOnline/looset/blob/master/tools-overview/README.md\"
-    title=\"Tools Overview\" target=\"_blank\">post</a> com uma visão geral sobre
-    as quatro ferramentas.</p></li><li><p><a href=\"/looset-landing\">English version
-    \U0001F1EC\U0001F1E7</a></p></li></ul>"
+    família Looset\">vídeo demo</a> de futuras ferramentas: Looset Glossary e Looset
+    Page;</p></li><li><p>Uma <a href=\"https://forms.gle/5vbfc54MRXcBodKc7\" title=\"Google
+    Forms survey\">pesquisa</a> para entender quais ferramentas beneficiariam mais
+    os desenvolvedores;</p></li><li><p>Um <a href=\"https://github.com/JpOnline/looset/blob/master/tools-overview/README.md\"
+    title=\"Tools Overview\">post</a> com uma visão geral sobre as quatro ferramentas.</p></li><li><p><a
+    href=\"/looset-landing\">English version \U0001F1EC\U0001F1E7</a></p></li></ul>"
   background-color: var(--bg)
   headline-color: var(--headline-color)
   content-color: var(--content-color)
