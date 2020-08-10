@@ -1,6 +1,7 @@
 ---
 layout: blocks
-title: Source Code Visualizaiton
+title: Looset | Main
+description: A family of tools to explore big or complex codebases.
 date: 2020-07-26T15:00:00.000-03:00
 page_sections:
 - template: navigation-header
@@ -23,7 +24,7 @@ page_sections:
     \ <div class=\"container\">\n    <div class=\"columns\">\n      <div class=\"column
     text\">\n        <h1 style=\"color: var(--headline-color)\">\n          <span
     class=\"light\">Source Code Visualization</span>\n        </h1>\n        <p style=\"color:
-    var(--content-color)\">\n          A family of tools to explore big or unknown
+    var(--content-color)\">\n          A family of tools to explore big or complex
     codebases.\n        </p>\n        \n        <a class=\"button primary inverted\"
     href=\"#developer-time\">\n          <i class=\"fas fa-angle-double-down\"></i>\n
     \       </a>\n        \n      </div>\n      <div class=\"column media\">\n          <img
