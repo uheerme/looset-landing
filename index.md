@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Looset | Main
+title: Source Code Visualization | Looset
 description: A family of tools to explore big or complex codebases.
 date: 2020-07-26T15:00:00.000-03:00
 page_sections:

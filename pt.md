@@ -1,6 +1,6 @@
 ---
 layout: blocks
-title: Looset | Principal
+title: Visualização de Código | Looset
 description: Uma família de ferramentas para explorar projetos grandes e complexos.
 date: 2020-07-26T15:00:00.000-03:00
 page_sections:
