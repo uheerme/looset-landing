@@ -43,17 +43,17 @@ In Clojure, most of the data are maps, it is part of the philosophy. As data wil
 ## Front-end
 Most people would agree that making decisions about the Front-end is very different from making decisions about the back-end. But we still want to maximize the community contribution and modularity, still letting options open. So we decided to write Looset views as independent Web Components that will be used in a basic HTML page. For instance we'll write components using Clojurescript and [Reagent](https://reagent-project.github.io/), but we'll let it open for other languages and frameworks that support exporting as Web Components. One could decide to use Angular or Vue.js to write a new functionality.
 
-I've already created a web app from scratch without a State Management System as Redux or [Re-Frame](http://day8.github.io/re-frame/) and I know how this is important. I would say that the most important is not the library but the idea, so the main point is to have the app state to be global, change it by firing events and subscribe components to the changes. I'm still investigating how we're going to use it in a way it's available to any web component in any framework.
+I've already created a web app from scratch without a State Management System as [Redux](https://redux.js.org/), [Flux](https://facebook.github.io/flux/docs/in-depth-overview) or [Re-Frame](http://day8.github.io/re-frame/) and I know how this is important. I would say that the most important is not the library but the idea, so the main point is to have the app state to be global, change it by firing events and subscribe components to the changes. I'm still investigating how we're going to use it in a way it's available to any web component in any framework.
 
 Other decisions about how to structure the app state also needs to be done. I like to have it as normalized as possible and splitting what are domain entities (basically what we would write in a database) and UI models (component states) also computing as little as possible in the rendering phase, [treating the UI as a Finite State Machine](https://cognitect.com/blog/2017/5/22/restate-your-ui-using-state-machines-to-simplify-user-interface-development).
 
 ## Tests
 I like the Test Driven Development approach, what is good not only for tests but for structuring dependencies in a testable way. I tend to write them in a BDD style using the [Given, When, Then Gherkin syntax](https://cucumber.io/docs/gherkin/reference/). We'll mostly write unit tests for the back-end, but I don't think unit tests are that valuable for the front-end. I've already used [Puppeteer](https://github.com/puppeteer/puppeteer) to write end-to-end tests, clicking in buttons, taking screenshots, etc. But for Looset we'll use it basically to have a production like environment, but only firing events and checking the result app state.
 
-Another strategy that is sometimes viewed as tests, but I use more as a way to develop and prototype is [Devcards](https://github.com/bhauman/devcards). We'll use it to visualize all components in multiple states at once while we're developing and tweaking the app state.
+Another strategy that is sometimes viewed as tests, but I use more as a way to develop and prototype is [Devcards](https://github.com/bhauman/devcards). We'll use it to visualize all components in multiple states at once while we're developing and tweaking the app state. [Storybook](https://storybook.js.org/) seems to be a good alternative that can work with any Web Component.
 
 ## Speed
-In most projects the performance is not a top priority for me because I don't expect to work with huge amounts of data, what's different in this project. A main concern is how fast it's going to be to interact with big projects generating large graphs. To address this problem we'll have Web Workers or background processes generating caches for the visualizations.
+In most projects the performance is not a top priority for me because I don't expect to work with huge amounts of data, that is different in this project. A main concern is how fast it's going to be to interact with big projects generating large graphs. To address this problem we'll have Web Workers or background processes generating caches for the visualizations.
 
 ## Kickstarter
 We created a campaign to both validate the interest and also to be able to invest the amount of time that this project requires. The campaign asks for a one time contribution of any amount and it's all or nothing, you'll be changed at the end of the month and only if we reach the goal.
@@ -65,3 +65,5 @@ We created a campaign to both validate the interest and also to be able to inves
 [The Kickstarter Campaign](https://www.kickstarter.com/projects/looset-team/looset?ref=1i0fmm)
 
 <iframe src="https://www.kickstarter.com/projects/looset-team/looset/widget/card.html?v=2" width="430" height="510" frameborder="0" scrolling="no"></iframe>
+
+*Last Update: 17 Aug 2020*
