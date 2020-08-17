@@ -33,11 +33,11 @@ page_sections:
 - template: 2-column-text
   block: two-column-1
   col_2:
-    content: This is possible by a simple <strong>static analyzer</strong> that identify
+    content: This is possible by a simple <strong>static analyzer</strong> that identifies
       <strong>Code Blocks</strong> and an identifier, what in most cases are functions
-      and its name. The basic analyzer rely in the fact that developers split Code
+      and its name. The basic analyzer relies on the fact that developers split Code
       Blocks by <strong>blank lines</strong> and use appropriate <strong>indentation</strong>.
-      It works with <strong>any language</strong>, this is why it's perfect to be
+      Looset works with <strong>any language</strong>. This is why it's perfect to be
       used in projects that mix HTML, CSS, Javascript, C#, Java, Clojure, Go, Rust,
       Bash, R, Ruby, Swifty, SQL, Kotlin, Lua, Scala, VBA, Python, Haskell, Cobol,
       Lolcode, etc.
@@ -46,9 +46,9 @@ page_sections:
     content-color: var(--content-color)
     background-color: ''
   col_1:
-    content: The problem is when we are facing a big codebase that we don't know,
-      it would be great if every project is split well in modules, have good documentation,
-      tests and functions and variables are named accordingly with the domain entities,
+    content: The problem is that when we are facing a big codebase which we don't know,
+      it would be great if every project was split well into modules, had good documentation,
+      a lot of tests, and its functions and variables were named accordingly with the domain entities,
       but this is not always true.
     headline: Source Code is rarely clean
     headline-color: var(--headline-color)
@@ -70,7 +70,7 @@ page_sections:
     has-shadow-box: false
   content: 'Code takes time to understand. A <a href="https://insights.stackoverflow.com/survey/2018#work-_-how-long-do-developers-expect-new-coworkers-to-take-to-be-productive"
     title="">StackOverflow survey</a> showed that <strong>more than 70%</strong> of
-    experient software developers are expect to take <strong>more than a month to
+    experient software developers are expected to take <strong>more than a month to
     become productive</strong> in a new project.<br><br>On average, developers spend
     only <strong>5%</strong> of their time <strong>writing and editing</strong> code,
     more than <strong>80%</strong> of the time is spent on <strong>understanding and
@@ -106,9 +106,9 @@ page_sections:
   block: feature-1
   media_alignment: Right
   content: Looset Diagram helps you to <strong>understand the code</strong> you work
-    with by giving more than just text colored in an editor and showing a <strong>graph
-    of call references</strong>. <br><br>It automatically generates graph diagrams
-    where each Code Block is a node and a connection is created when a Code Block
+    with by giving more than just colored text in an editor and showing a <strong>graph
+    of call references</strong>. <br><br>It automatically generates graph diagrams,
+    where each Code Block is a node, and a connection is created when a Code Block
     references another Code Block. When a <strong>folder is collapsed</strong> all
     its Code Blocks get <strong>hidden inside the folder</strong> and their connections
     start to point to the folder node, acting as a <strong>black box</strong>. It's
@@ -136,7 +136,7 @@ page_sections:
   media_alignment: Right
   headline: Looset Code helps developers who want to <strong>walk through the codebase</strong>
     efficiently by avoiding managing several opened files and <strong>showing Code
-    Blocks</strong> they are working simultaneously <strong>in one screen</strong>.
+    Blocks</strong> they are working on, simultaneously, <strong>in one screen</strong>.
   content: ''
   media:
     image: "/uploads/2020/07/15/gif-4.gif"
@@ -174,7 +174,7 @@ page_sections:
   background-color: var(--bg-secondary)
   content: 'A lot of open source code gets done for free, but unfortunately I can
     not afford to spend the amount of time this project requires for free. Kickstarter
-    is a platform where you can contribute with any amount and you only get charged
+    is a platform where you can contribute with any amount, and you only get charged
     if it reaches the goal. '
   embed: <iframe src="https://www.kickstarter.com/projects/looset-team/looset/widget/card.html?v=2"
     width="430" height="510" frameborder="0" scrolling="no"></iframe>
