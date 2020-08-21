@@ -173,7 +173,7 @@ page_sections:
 - template: 1-column-embed
   block: one-column-embed
   embed: '<iframe width="800" height="500" style="box-shadow: 20px 13px 20px 0px #0000004f;"
-    src="https://www.youtube.com/embed/x5mZcIVAPcg" frameborder="0" allow="accelerometer;
+    src="https://www.youtube.com/embed/TW5c8V33-rk" frameborder="0" allow="accelerometer;
     autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   background-color: var(--bg-secondary)
 - template: hero-banner-w-embed

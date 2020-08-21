@@ -60,7 +60,7 @@ We created a campaign to both validate the interest and also to be able to inves
 
 [Looset main page](https://jponline.github.io/looset-landing)
 
-[A video demo of the tools](https://youtu.be/x5mZcIVAPcg)
+[A video demo of the tools](https://youtu.be/TW5c8V33-rk)
 
 [The Kickstarter Campaign](https://www.kickstarter.com/projects/looset-team/looset?ref=1i0fmm)
 
