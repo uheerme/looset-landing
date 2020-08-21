@@ -17,6 +17,8 @@ page_sections:
     link_text: Looset Diagram
   - link: "#looset-code"
     link_text: Looset Code
+  - link: "FAQ"
+    link_text: FAQ
   background-color: ''
 - template: free-html
   block: free-html

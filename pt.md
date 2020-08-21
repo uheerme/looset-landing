@@ -17,6 +17,8 @@ page_sections:
     link_text: Looset Diagram
   - link: "/pt#looset-code"
     link_text: Looset Code
+  - link: "FAQ"
+    link_text: FAQ
   background-color: ''
 - template: hero-banner-w-image
   block: hero-2
