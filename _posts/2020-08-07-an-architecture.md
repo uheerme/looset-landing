@@ -12,7 +12,7 @@ toc: true
 
 I'll tell you some of my opinions about Software Architecture and what are our plans for Looset.
 
-It'll watch you source files changes to show in real time a dependencies diagram and Code Block viewer independent of the filesystem. Check it out on the [main page](https://jponline.github.io/looset-landing/).
+It'll watch your source files changes to show in real time a dependencies diagram and Code Block viewer independent of the filesystem. Check it out on the [main page](https://jponline.github.io/looset-landing/).
 
 We haven't started to work in Looset yet, but I've thought a bit about its architecture. I believe the "building" metaphor is bad when talking about software, I prefer the "grow" metaphor. When we think about our software as a living organism that needs constant care we make better decisions about it.
 
@@ -66,4 +66,4 @@ We created a campaign to both validate the interest and also to be able to inves
 
 <iframe src="https://www.kickstarter.com/projects/looset-team/looset/widget/card.html?v=2" width="430" height="510" frameborder="0" scrolling="no"></iframe>
 
-*Last Update: 17 Aug 2020*
+*Last Update: 22 Aug 2020*
