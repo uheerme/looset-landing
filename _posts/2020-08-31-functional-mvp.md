@@ -14,6 +14,7 @@ Many people had doubts about how Looset would behave in large projects, or if a 
 I ran Looset Diagram in some Open Source code-bases, check it out the list below.
 
 ## Looset Diagrams on some projects
+- [docker/compose](https://jponline.github.io/looset-diagram-mvp/?project=docker/compose) (Python)
 - [Shazwazza/Articulate](https://jponline.github.io/looset-diagram-mvp/?project=Shazwazza/Articulate) (C#)
 - [mapbox/mapbox-gl-draw](https://jponline.github.io/looset-diagram-mvp/) (Javascript)
 - [oliveira-michel/Jhulis](https://jponline.github.io/looset-diagram-mvp/?project=oliveira-michel/Jhulis) (C#)
