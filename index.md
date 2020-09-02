@@ -22,16 +22,26 @@ page_sections:
   background-color: ''
 - template: free-html
   block: free-html
-  html: "<section class=\"block block-hero-2\" style=\"background-color: var(--bg)\">\n
-    \ <div class=\"container\">\n    <div class=\"columns\">\n      <div class=\"column
-    text\">\n        <h1 style=\"color: var(--headline-color)\">\n          <span
-    class=\"light\">Source Code Visualization</span>\n        </h1>\n        <p style=\"color:
-    var(--content-color)\">\n          A family of tools to explore big or complex
-    codebases.\n        </p>\n        \n        <a class=\"button primary inverted\"
-    href=\"#developer-time\">\n          <i class=\"fas fa-angle-double-down\"></i>\n
-    \       </a>\n        \n      </div>\n      <div class=\"column media\">\n          <img
-    style=\"box-shadow: 20px 13px 20px 0px #0000004f; \" src=\"/looset-landing/uploads/2020/07/13/looset-diagram-gif.gif\"
-    alt=\"Product Shot\">\n      </div>\n    </div>\n  </div>\n</section>"
+  html: "<section class=\"block block-hero-2\" style=\"background-color: var(--bg)\">
+          <div class=\"container\">
+            <div class=\"columns\">
+              <div class=\"column text\">
+                <h1 style=\"color: var(--headline-color)\">
+                  <span class=\"light\">Source Code Visualization</span>
+                </h1>
+                <p style=\"color: var(--content-color)\">
+                  A family of tools to explore big or complex codebases.
+                </p>
+                <a class=\"button primary inverted\" href=\"/looset-landing/functional-mvp\">
+                  Try it
+                </a>
+              </div>
+              <div class=\"column media\">
+                <img style=\"box-shadow: 20px 13px 20px 0px #0000004f; \" src=\"/looset-landing/uploads/2020/07/13/looset-diagram-gif.gif\" alt=\"Product Shot\">
+              </div>
+            </div>
+          </div>
+        </section>"
 - template: 2-column-text
   block: two-column-1
   col_2:
